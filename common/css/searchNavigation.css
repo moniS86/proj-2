@@ -1,0 +1,212 @@
+.searchGroupBy {
+  width: 100%;
+  margin-top: 5px;
+  height: 26px;
+}
+.searchGroupByLabel {
+  margin-top: 10px;
+}
+.backToSearch {
+  float: right;
+  font-size: 11px;
+}
+.frstLevel,
+.frstLevel_dummy {
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  line-height: 17px;
+  border: 1px solid #a9a9a9;
+  padding: 5px 0 5px 14px;
+  cursor: pointer;
+}
+.scndLevel,
+.scndLevel_dummy {
+  display: none;
+  margin-top: 0 !important;
+  padding-left: 15px;
+}
+.scndLevel,
+.thrdLevel,
+.frthLevel,
+.scndLevel_dummy {
+  border-left: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+  background-color: #f9f9f9;
+  width: 100% !important;
+}
+.scndLevel.bottomBorder,
+.thrdLevel.bottomBorder,
+.frthLevel.bottomBorder,
+.scndLevel_dummy.bottomBorder {
+  border-bottom: 1px solid #a9a9a9;
+}
+.thrdLevel {
+  margin-top: 0 !important;
+  border-left: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+  padding-left: 42px;
+}
+.frthLevel {
+  width: 100%;
+  height: 26px;
+  font-weight: normal !important;
+  margin-top: 0;
+  padding-left: 42px;
+}
+.frthLevel .span2 {
+  padding-left: 47px;
+}
+.frthLevel .dot {
+  height: 6px;
+  width: 6px;
+  background-color: #cc5200;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: -6px;
+}
+
+.searchNavigation {
+  height: calc(100vh - 195px);
+  overflow: auto;
+  padding-right: 10px;
+}
+.expandSubBooking,
+.rightMargin {
+  margin: 0 15px 0 0;
+}
+.marginWithoutSubBooking {
+  margin: 0 12px 0 0;
+}
+.expandBooking {
+  margin: 0 5px 0 0;
+  float: left;
+  width: 18px;
+}
+.chevronArrow {
+  float: right;
+  margin-right: 10px;
+  /* margin-top: 5px; */
+}
+.dropMenuIcon {
+  /* 	display:none; */
+  position: absolute;
+}
+.scndLevel .roundDownArrowIcon,
+.thrdLevel .roundDownArrowIcon,
+.scndLevel_dummy .roundDownArrowIcon {
+  display: none;
+}
+.scndLevel.activeSubBook .roundDownArrowIcon,
+.thrdLevel.activeSubBook .roundDownArrowIcon,
+.scndLevel_dummy.activeSubBook .roundDownArrowIcon {
+  display: inline-block;
+}
+.dropMenuIconContainder {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 29px;
+}
+.toolTipList td {
+  border-top: 0 !important;
+  text-align: right;
+}
+.toolTipList td a:hover {
+  background-color: #c9c9c9;
+}
+
+.toolTipList td:last-child:not(.cargoListToolTip .toolTipList td) {
+  border-right: 1px solid #ececec !important;
+}
+.toolTipList td:first-child:not(.cargoListToolTip .toolTipList td) {
+  border-left: 1px solid #ececec !important;
+}
+.toolTipList a {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  display: block;
+  line-height: 30px;
+  padding: 0 20px;
+}
+span.icons_sprite.bookingInlineMenu.roundDownArrowIcon.fa.fa-caret-down.dropMenuIcon,
+span.icons_sprite.bookingInlineMenu.roundDownArrowIcon.fa.fa-caret-down.dropMenuIcon.fa-chevron-down,
+span.icons_sprite.subBookingInlineMenu.roundDownArrowIcon.fa.fa-caret-down {
+  padding-left: 10px;
+  padding-top: 6px;
+}
+.billVin.singleColItem.ui-selecting .roundDownArrowIcon {
+  height: 100% !important;
+  width: 100% !important;
+}
+.mainBookingListWrap .singleColItem .icons_sprite {
+  margin-left: 0 !important;
+}
+.mainBookingItemIcons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 29px;
+  height: 100%;
+}
+.activeNavigationItem .mainBookingItemIcons {
+  background-color: #c9c9c9;
+}
+.mainBookingItemIcons .subBookingInlineMenu:hover,
+.mainBookingItemIcons .bookingInlineMenu:hover {
+  background-color: #9b9b9b;
+}
+.mainBookingListWrap .singleColItem .icons_sprite {
+  margin-left: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+.searchNavigation div:last-child {
+  border-bottom: 1px solid #a9a9a9;
+}
+.statusIcon {
+  margin-right: 5px;
+}
+
+.custCodePanel {
+  float: left;
+  width: 85%;
+}
+.searchNavigation div.clearAll {
+  border: none !important;
+}
+.inlinePanel {
+  width: 80%;
+  display: inline-block;
+}
+.frthLevel:hover,
+.activeNavigationItem {
+  background-color: #c9c9c9;
+}
+.clippedTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.frstLevel,
+.scndLevel,
+.thrdLevel,
+.frthLevel,
+.frstLevel_dummy,
+.scndLevel_dummy {
+  font-size: 11px;
+}
+#bookingUnitForm .CargoUnitVin.singleColItem.frthLevel.clippedTitle {
+  border: none !important;
+}
+#bookingUnitForm .subBookingNbrsCntnt {
+  width: 94% !important;
+  border: 1px solid #d9d9d9;
+  padding: 0 !important;
+  margin-left: 3% !important;
+}
+.scndLevel.unlockedBill a {
+  color: red !important;
+}
+.consignmentInlineMenu a.deleteSubBooking {
+  display: block;
+}

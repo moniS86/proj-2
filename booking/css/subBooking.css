@@ -1,0 +1,475 @@
+#routeDetailGrid th:nth-child(1), #routeDetailGrid td:nth-child(1){
+	width: 15px;
+	padding: 0;
+}
+.subBookListFormWrap {
+	width: 100%;
+}
+
+#mainBookingDimensionsGrid .rowItem.width100per, #disableCopytpFrightLink, #copytpFrightLink {
+    width: 100% !important;
+    margin-left: 11px !important;
+}
+#mainBoookDetailsFormContent .rowItem.totalUnitsRow.wid40p {
+    width: 18% !important;
+    margin: 7px 0 0 2%;
+    box-sizing: border-box;
+}
+.subBookingAccEle .rowItem input[type="text"], .subBookingAccEle .rowItem select {
+    width: 97%;
+}
+#bookingCargoText {
+    width: 98.5%;
+}
+.bookingBLNum{
+	background-color: white!important;
+    border: none!important;
+}
+#bookingCargoType {
+    width: 98.3%;
+}
+#totalBookedUnits {
+    width: 75%;
+    margin-right: 3px;
+    position: static;
+}
+.totalBookedUnits {
+    width: 75% !important;
+    margin-right: 3px;
+    position: static;
+}
+
+#totalUnitsGrid input[disabled] {
+    border: none;
+    width: 75%;
+    margin-right: 3px;
+    position: static;
+    background-color: transparent!important;
+    color: black;
+}
+.fa.fa-ellipsis-v {
+    line-height: 22px;
+}
+#totalUnitsGrid td p {
+ 	display: inline;
+    margin-right: 5px;
+ }
+.totalUnitsLabel {
+    float: left;
+    margin-top: -17px;
+}
+#totalBookedUnits + span {
+	display: block !important;
+}
+#totalUnitsGrid td:hover{
+  background-color: #c9c9c9 !important;
+}
+#totalUnitsGrid td:hover > span{
+  display: block !important;
+}
+.formInputWrap.totalUnitsTable {
+    width: 100%;
+}
+#mainBookingDimensionsGrid .unitsCol.lgWidth {
+    width: 135px !important;
+}
+#mainBookingDimensionsGrid select {
+    width: 67%;
+    margin-left: 31px;
+}
+#mainBookingDimensionsGrid .unitsCol {
+    width: 148px;
+}
+.accContent.subBookingAccEle .lastRow .rowItem.firstItem {
+    width: 28% !important;
+}
+#subBookingChargesGrid_wrapper, #subBookingChargesGrid {
+	width: 92.4%;
+	float: left;
+}
+#subBookingChargesGrid_wrapper #subBookingChargesGrid {
+	width: 100%;
+}
+.greyBoldText.m_tb_5{
+    text-align: center;
+    margin: 7px 0;
+}
+.applyRateDiv {
+    background-color: #fafafa;
+    height: 23px;
+    width: 102%;
+    border: 1px solid #ececec;
+}
+#bookingRateListLink {
+    float: right;
+    color: #ffffff;
+}
+.chargesTableDetails {
+    width: 100%;
+}
+.mainSubBookingFormWrap a.normalBtnLink.bigGreyLnk {
+    padding: 0 1px;
+    margin-top: 25px !important;
+    float: right;
+    width: 6%;
+}
+#subBookingChargesGrid th.typeColumn, #bookingFreightDimensionsGrid th.typeColumn {
+    width: 22.2%;
+}
+#bookingFreightDimensionsGrid td.smallNumeric, #bookingFreightDimensionsGrid th.smallNumeric {
+    width: 5.6%;
+    text-align: left;
+}
+#subBookingChargesGrid th.smallNumeric, #subBookingChargesGrid td.smallNumeric{
+    width: 5.6%;
+}
+#subBookingChargesGrid th.basisColumn, #bookingFreightDimensionsGrid th.basisColumn{
+    width: 20%;
+}
+#mainBookingFreightCommission {
+	width: 25% !important;
+}
+#subBookingChargesGrid th.checkBoxInp {
+    width: 5%;
+    padding: 0 !important;
+}
+#subBookingChargesGrid th.icons {
+    width: 3%;
+    padding: 0 !important;
+}
+.freightCargoDetailsDivWrapper th.leftAlign {
+	text-align: left !important;
+}
+#subBookingChargesGrid td.icons {
+    text-align: center;
+}
+#chargeGrossFreight, #chargeSubBookings {
+	margin: 0 34%;
+}
+#subBookingChargesGrid td .numericField {
+    width: 100% !important;
+}
+#subBookingChargesGrid #chargeComments {
+    width: 88% !important;
+}
+.cargoDetailsRow .rowItem.colItemRow{
+	width: 35%;
+    margin-left: 0;
+    margin-top: 15px;
+}
+.colItem {
+    margin-bottom: 5px;
+    height: 22px;
+}
+.colItem label {
+    width: 15%;
+    margin-right: 2%;
+}
+.colItem select, .colItem input[type=text] {
+    width: 59%;
+}
+#cargoEquipmentType {
+    width: 61%;
+}
+.colItem.cargoListCol {
+    width: 53.5%;
+}
+select#cargoEquipmentNbr {
+    width: 61%;
+}
+.colItem .thirdPartyLabel {
+    width: 9% !important;
+}
+.thirdPartyDetailsAccEle .rowItem.w45 {
+	margin-left: 2% !important;
+    width: 46% !important;
+}
+.thirdPartyDetailsAccEle .rowItem.w45 .colItem .formInputWrap {
+	width: 91% !important;
+}
+#voyageCarrierRef {
+	width: 40%;
+}
+.thirdPartyDetailsAccEle .rowItem {
+	width: 13% !important;
+}
+.thirdPartyDetailsAccEle .rowItem.transportType{
+	width: 15% !important;
+}
+.thirdPartyDetailsAccEle .rowItem.dateCol {
+	width: 8.5% !important;
+}
+.colItem .datePickerInpWrap input[type="text"] {
+	width: 120% !important;
+}
+.thirdPartyDetailsAccEle .rowItem label{
+	width: 40%;
+	margin-right: 4%;
+}
+.thirdPartyLabel.transportType{
+	width: 48% !important;
+}
+.thirdPartyDetailsAccEle .rowItem .formInputWrap{
+	width: 48%;
+}
+.thirdPartyDetailsAccEle .rowItem .formInputWrap select{
+	width: 100%;
+}
+.accHeader.bdrBtmNo {
+	border-bottom: none;
+}
+#bookingCargoListGrid .dataTables_scrollBody {
+    border-bottom: 1px solid #ececec !important;
+}
+.billInfoWrapper .rowItem{
+	margin-left: 0;
+	width: 20% !important;
+}
+.billInfoWrapper .rowItem label{
+	margin-right: 5px !important;
+}
+#blSurrendered{
+	width: auto !important;
+	margin-top: 3px;
+}
+#billLadingDetailsForm input:not(.saveButton), #billLadingDetailsForm select, #billLadingDetailsForm textarea{
+	width: 100%;
+    box-sizing: border-box;
+}
+#blNameDesc{
+	width: 69% !important;
+}
+#blCountryCode{
+	width: 25% !important;
+}
+#blCountryCodeDesc{
+	width: 74% !important;
+}
+.rmvPartyitem{
+    position: relative;
+}
+.addNewPartyWrap{
+	margin-left: 5% !important;
+}
+#billTypeItem .formInputWrap {
+    width: 60%;
+}
+#billTypeLabel {
+	width: 45px;
+}
+.accElement.billLadingHeaderWrapper .surrendRow .rowItem{
+	width: 22% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem {
+    width: 12% !important;
+}
+#docOffcLabel {
+	width: 22% !important;
+    margin-right: 5px !important;
+}
+#docOffcLabel + div .docSearch {
+    width: 17% !important;
+}
+#docOffcLabel + div .docDescSearch {
+    width: 81% !important;
+}
+#docOffcLabel + div {
+    width: 77% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem.w45 {
+    width: 33% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem.w20 {
+    width: 9.5% !important;
+    margin: 0 !important;
+}
+.printed, .threeColFormRow.formRow .rowItem:first-of-type, #billStatusItem{
+	margin-left: 0 !important;
+}
+#billStatusItem .formInputWrap {
+    width: 65%;
+}
+#bookingUnitForm .popUpTitle{
+	margin: 0 0 10px 0 !important;
+}
+#bookingUnitForm .rowItem{
+	margin-left: 0 !important;
+}
+#bookingUnitForm .rowItem label{
+	font-weight: bold;
+	margin-right: 0 !important;
+}
+#bookingUnitForm .rowItem .floatLeft label{
+	width: 60%;
+}
+#bookingUnitForm .rowItem .floatLeft:not(#currCode){
+	width: 40%;
+}
+#bookingUnitForm #allocStatus,#bookingUnitForm #vinSerialNbr{
+	width: 65% !important;
+    box-sizing: border-box;
+}
+#bookingUnitForm .areaCalculation{
+	border: none !important;
+}
+#bookingUnitForm .nFormRow{
+	width: 70% !important;
+}
+.width33per{
+	width: 33% !important;
+}
+.width65per{
+	width: 65% !important;
+}
+.width55per{
+	width: 55% !important;
+}
+.width43per{
+	width: 43% !important;
+	margin-left: 1% !important;
+}
+#custRefLabel {
+	width: 40% !important;
+}
+#customerRef{
+	width: 98% !important;
+	box-sizing: border-box;
+}
+#bookingUnitForm .subBookLevel{
+	padding: 10px 1%;
+    width: 36.7%;
+    background-color: #ececec;
+    margin-left: 0.5% !important;
+    margin-bottom: 20px;
+}
+#bookingUnitForm .subBookHDetail{
+	margin-left: 2.5% !important;
+}
+#buCustDesc, #buOriginDesc, #buDestDesc{
+	margin-left: 15px !important;
+}
+#bookingUnitForm .mainBookingDetailFormTitle{
+	width: 100% !important;
+}
+#bookingUnitForm .nFormRow .formInputWrap:not(.cRefLbl){
+	width: 66% !important;
+}
+#bookingUnitForm #declaredValDesc{
+	width: 61% !important;
+}
+#bookingUnitForm .nFormRow .formInputWrap input:not(#customerRef), #bookingUnitForm .nFormRow .formInputWrap select{
+	width: 70%;
+	box-sizing: border-box;
+}
+#bookingUnitForm .nFormRow .rowItem:not(.decVal){
+	width: 49.5% !important;
+}
+#bookingUnitForm #currCode{
+	width: 35% !important;
+}
+#fDecVal{
+	width: 23% !important;
+}
+.cCond{
+	clear: both;
+	width: 90% !important;
+}
+#cargoCondition{
+	height: 100px;
+}
+.bookingUnitWrap{
+	display: none;
+}
+.bookingUnitContent{
+	height: auto !important;
+}
+#mainBookingDimensionsGrid {
+    margin: 0;
+}
+@media all and (min-width: 1899px) {
+	#mainBookingDimensionsGrid tr th:first-child {
+	    width: 90px;
+	}
+	#mainBookingDimensionsGrid tr td:first-child {
+	    padding-left: 10px !important;
+	}
+}
+@media all and (max-width: 1680px) {
+	.billInfoWrapper .rowItem, .billLadingPartyContentWrapper .formRow label.threeColLabel{
+		width: 28% !important;
+	}
+	.billLadingPartyContentWrapper .formRow .rowItem:first-of-type {
+	    width: 38%;
+	}
+	.billLadingPartyContentWrapper .formRow .rowItem:nth-child(3) label {
+        width: 25% !important;
+    }
+    .billLadingPartyContentWrapper .threeColFormRow.formRow .rowItem.thirdColumn label {
+        width: 17% !important;
+    }
+	.addNewPartyWrap{
+		margin-left: 6% !important;
+	}
+	#billLadingCommentGrid .w10per{
+		width: 13% !important;
+	}
+	#billTypeItem {
+	    width: 19% !important;
+	}
+	#docOffcLabel {
+	    width: 23% !important;
+	}
+	#docOffcLabel + div {
+	    width: 71% !important;
+	}
+	#customerRef{
+	width: 96% !important;
+	}
+	.accElement.billLadingHeaderWrapper .rowItem.w45 {
+	    width: 29% !important;
+	}
+	#viewPrintSettingsLink {
+		font-size: 11px;
+    	padding: 0 3%;
+	}
+}
+
+.billLadingPartyContentWrapper .threeColFormRow.formRow .rowItem.thirdColumn label{
+	width: 12%;
+}
+.confirmDialogWrapper .rowItem {
+    text-align: left;
+    float: right;
+    width: 94%;
+    font-family: Arial;
+    margin-left: 0 !important;
+}
+.accElement.billLadingHeaderWrapper .surrendRow .rowItem.rowItem1{
+	width: 22% !important;
+}
+.accElement.billLadingHeaderWrapper .surrendRow .rowItem.bklstPrinted{
+	float: right;
+    margin-right: 5.5%;
+}
+.accElement.billLadingHeaderWrapper .rowItem.rowItem1:not(:first-child) {
+    margin-left: 5.1% !important;
+}
+#billLadingDetailsForm .rowItem1 input:not(.saveButton) {
+    width: 77%;
+    box-sizing: border-box;
+}
+#confirmDialogPopup .formSubmitButtons, #editCommentPopup .formSubmitButtons{
+	position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#editCommentPopup .textAreaContent{
+	margin-top: 10px;
+}
+#moveUnitsPopup{
+	top: 100px !important;
+}
+#viewPrintSettingsGrid td input.origin:focus,
+#viewPrintSettingsGrid td input.origin{
+	outline: none !important;
+}

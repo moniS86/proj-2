@@ -1,0 +1,2170 @@
+th, td {
+	white-space: nowrap;
+}
+
+.positionStyle {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.addRemoveIcons {
+	width: 60px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.datePickerIcon {
+	background-position: -56px -159px;
+}
+
+.addAboveRowIcon {
+	display: block;
+	height: 10px;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.addBelowRowIcon {
+	height: 10px;
+}
+
+.expandIcon {
+	background-position: -347px -293px;
+}
+
+.collapseIcon {
+	background-position: -346px -323px;
+}
+
+.filterDiv .resetIcon {
+	left: -3px;
+	position: relative;
+	top: -4px;
+	cursor: pointer;
+	background-position: -160px -224px;
+	height: 23px;
+}
+
+.filterDiv {
+	position: relative;
+	padding: 10px 50px 10px 10px;
+}
+
+.filterBox {
+	width: 100%;
+}
+
+.filterLnk {
+	position: absolute;
+	right: 10px;
+}
+
+.leftSearchMenu {
+	    width: 15%;
+    float: left;
+    position: absolute;
+    top: 39px;
+    left: 15px;
+	height: 872px;
+}
+
+.leftSearchMenuContent {
+	float: left;
+	width: 100%;
+	display: none;
+}
+
+.leftSearchMenuContent ul, .cargoManagementRightData {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.leftSearchMenuContent .formInputWrap.doubleInput input[type="text"] {
+	box-sizing: border-box;
+	float: left;
+	height: 24px;
+}
+
+#closeSearchMenu {
+	cursor: pointer;
+	display: none;
+}
+
+.blackBigIconWrap {
+	background: linear-gradient(to top, #9ca2a6, #f2f6f8) repeat scroll 0 0
+		rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	border: 1px solid #c4ccd2;
+	display: inline-block;
+	height: 40px;
+	right: 0;
+	position: absolute;
+	width: 44px;
+	border-radius: 4px 0 0 4px;
+	top: 10px;
+}
+
+.searchBy {
+	float: left;
+	width: 70%;
+}
+
+.leftSearchMenuContent li {
+	box-sizing: border-box;
+	float: left;
+	margin-top: 0;
+	position: relative;
+	width: 98%;
+}
+
+.searchMenuItemWrap label {
+	display: block;
+	line-height: 18px;
+}
+
+.voyageIcon {
+	background-position: -237px -156px;
+}
+
+.vesselIcon {
+	background-position: -237px -78px;
+}
+
+.customerIcon {
+	background-position: -196px -157px;
+}
+
+.loadPortIcon {
+	background-position: -199px -117px;
+}
+
+.dischargePortIcon {
+	background-position: -199px -84px;
+}
+
+.destinationIcon {
+	background-position: -200px -51px;
+}
+
+.bookingNumberIcon {
+	background-position: -54px -156px;
+}
+
+.cargoTypeIcon, .cargoStateIcon, .cargoStatusIcon {
+	background-position: -235px -51px;
+}
+
+.vinNumIcon {
+	background-position: -235px -121px;
+}
+
+.blNumIcon {
+	background-position: -196px -220px;
+}
+
+.searchIcon {
+	background-position: -130px -261px;
+}
+
+.rightArrowIcon {
+	background-position: -55px -260px;
+}
+
+.leftArrowIcon {
+	background-position: -19px -260px;
+	left: -12px;
+	position: absolute;
+	top: 196px;
+}
+
+.cargoDetailsIcon {
+	background-position: -199px -223px;
+	float: right;
+	position: absolute;
+	right: 2px;
+	top: 4px;
+	cursor: pointer;
+}
+
+.newSearch {
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.searchedForWrap {
+	border: 1px solid #bbbbbb;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0 0.5%;
+	width: 84.5%;
+	border-radius: 4px;
+	margin-left: 0.5%;
+	min-height: 35px;
+}
+
+.selectedSearchDesc {
+	float: left;
+	margin: 9px 0;
+}
+
+.searchResultsWrap {
+	margin: 25px 0;
+	display: inline-block;
+}
+
+.searchedItem {
+	background-color: #92999f;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	margin: 3px 0 0 1%;
+	padding: 2px 35px 5px 10px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.searchedItem .smallRemoveIcon {
+	position: absolute;
+	right: 6px;
+	top: 5px;
+}
+
+.normalAccContentWrap .optionItem .smallRemoveIcon {
+	display: none;
+}
+
+.searchedItem span {
+	line-height: 18px;
+}
+
+.searchedItemValue {
+	font-weight: bold;
+}
+
+.topMenu {
+	position: relative;
+}
+
+.modalPopup {
+	display: none;
+}
+
+.popUpTitle {
+	margin: 0;
+}
+
+.searchMenuItemWrap {
+	display: block;
+}
+
+.searchMenuItemWrap label {
+	display: inline-block;
+	line-height: 18px;
+}
+
+.leftSearchMenuContent .formInputWrap.doubleInput input[type="text"] {
+	box-sizing: border-box;
+	float: left;
+	height: 24px;
+}
+
+.w70 {
+	width: 70% !important;
+	margin-left: 3%;
+}
+
+.searchByIcon {
+	background-position: -159px -315px;
+	margin-left: 20%;
+	padding-bottom: 12%;
+}
+
+.bookingsIcon {
+	background-position: -54px -156px;
+}
+
+.tradeCodeIcon {
+	background-position: -272px -259px;
+}
+
+.formInputWrap.doubleInput select.width50per {
+	width: 50%;
+}
+
+.formInputWrap.doubleInput select.w45 {
+	width: 45%;
+}
+
+.findSchedule {
+	display: none;
+}
+
+.accordionWrapper .accElement:first-child .accHeader {
+	border-top: none;
+}
+
+.vesselVoyageContent .accHeader.orangeHeader {
+	border-radius: 4px 4px 0 0;
+}
+
+.accHeader .icons_sprite.greyCircleIcon {
+	float: right;
+	margin-top: 7px;
+}
+
+.accordionWrapper .accElement {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.accHeadWrap {
+	overflow: hidden;
+	position: relative;
+}
+
+.accordionWrapper .accElement:first-child .accHeader {
+	border-top: none;
+}
+
+.accHeader .accEleIndicator {
+	float: left;
+}
+
+.greyCircleIcon {
+	height: 19px;
+	width: 18px;
+}
+
+.accContent {
+	box-sizing: border-box;
+	padding: 0 0.5% 5px;
+	width: 100%;
+	border: 1px solid #bbbbbb;
+	border-width: 0 1px 1px;
+	background-color: #ffffff;
+	float: left;
+	display: none;
+}
+
+.vesselVoyageDataGrid {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.w45 {
+	width: 45%;
+}
+
+table.dataTable tbody .iconCell {
+	padding: 0 2px 0 2px !important;
+	position: relative;
+}
+
+#addNewVesselGrid .plusIcon {
+	background-position: -128px -82px;
+}
+
+.commentsIcon {
+	background-position: -385px -324px;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+}
+
+.lightGreyGradient.normalBtnLink.applyBtnLnk {
+	padding: 1px 10px 1px 16px;
+}
+
+.accHeader  .rowItem.width100per .formInputWrap input[type="text"],
+	.rowItem.width100per .formInputWrap select {
+	padding: 0;
+}
+
+.removeAllocationIcon {
+	position: relative;
+	top: -7px;
+	right: 2px;
+}
+
+.vesselVoyageContent {
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+}
+
+.vesselAccordionWrapper.expandState {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+
+.vesselAccordionWrapper.compressedState {
+	float: left;
+	margin: 0 0 0 14.5%;
+	padding-left: 1%;
+	width: 84.5%;
+}
+
+.vesselAccordionWrapper {
+	min-height: 500px;
+}
+
+.newVesselVoyageGridWrapper, .editVesselVoyageGridWrapper {
+	width: 100%;
+	overflow-x: auto;
+}
+
+.buttonsList .removeIcon, .removeIcon {
+	background-position: -90px -87px;
+}
+
+.voyageTitle {
+	width: 40%;
+	float: left;
+}
+
+#vesselVoyageGridTable tr td input[type="text"] {
+	padding-left: 5px;
+	height: 25px;
+}
+
+#vesselVoyageGridTable tr td input[type="text"].allocComment {
+	width: 77%;
+	float: left;
+}
+
+.mr25 {
+	margin-right: 37px;
+}
+
+.marginLeft1px {
+	margin-left: 1%;
+}
+
+.expandData {
+	display: inline-block;
+}
+
+.voyageListsHeader {
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 3%;
+}
+
+.treeListLabel {
+	font-weight: bold;
+}
+
+.singleVoyageItem {
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	color: #616161;
+	cursor: pointer;
+	margin: 2%;
+	position: relative;
+	line-height: 20px;
+}
+
+.singleVoyageItem .plusIcon.icons_sprite {
+	background-position: -128px -91px;
+	float: left;
+	height: 23px;
+	margin: 0 0.5em 0 0;
+	width: 18px;
+}
+
+.buttonsList .exportIcon, .exportIcon {
+	background-position: -57px -90px;
+	width: 25px;
+}
+
+.comboButton:hover .exportIcon, .lightGreyGradient:hover .exportIcon {
+	background-position: -57px -125px;
+}
+
+.vesselListColWrap {
+	float: left;
+	overflow-y: hidden;
+	width: 14%;
+	box-sizing: border-box;
+	    margin-left: 9px;
+}
+
+.vesselColContentWrapper {
+	width: 84.5%;
+	float: left;
+	padding: 8px 0.5%;
+	background-color: #ffffff;
+	margin-left: 0.3%;
+	border-radius: 4px;
+	box-sizing: border-box;
+	overflow-y: hidden;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+}
+
+.redBold label {
+    color: red;
+}
+
+@media screen and (min-width:1600px){
+	.ui-tabs .ui-tabs-nav {
+    padding: .2em .25em 0;
+}
+
+	}
+#vesselVoyageGridTable tfoot th, table.dataTable tfoot td{
+	border-top: none;
+}
+#vesselVoyageGridTable tfoot tr {
+    background-color: white!important;
+    font-weight: bold;
+}
+#vesselVoyageGridTable tfoot tr td.leftAlign, .fixedHeader-floating tfoot tr td.leftAlign{
+    text-align: left !important;
+    padding-left: 2px !important;
+}
+.fixedHeader-floating tfoot tr {
+	font-weight: bold;
+}
+.vesselAccordionWrapper.expandState .vesselListColWrap,
+	.vesselAccordionWrapper.expandState .vesselColContentWrapper {
+	margin-top: 0;
+}
+
+.expandWrapper {
+	width: 100%;
+	margin-left: 0;
+}
+
+.editIcon {
+	background-position: -17px -90px;
+	cursor: pointer;
+}
+
+.confirmDialogWrapper .rowItem {
+	text-align: left;
+	float: right;
+	width: 94%;
+	font-family: Arial;
+	margin-left: 0 !important;
+}
+
+.voyageNbrsHdr {
+	display: none;
+	    margin-top: 13px;
+}
+.voyageContentListCol.voyageNbrsCntnt{
+	margin-top: 12px;
+}
+.voyageRemoveIcon {
+	float: right;
+	position: relative;
+	top: 8px;
+	left: 0;
+}
+
+.boldAlign, .newSearch {
+	font-weight: bold;
+}
+
+.normalAlign {
+	font-weight: normal;
+}
+
+.vesselListColWrap .singleVoyageItem {
+	box-sizing: border-box;
+	position: relative;
+}
+
+.activeSubBook.singleVoyageItem {
+	background-color: #446181;
+}
+
+.treeListLabel.singleVoyageItem {
+	background-color: #f7f9fa;
+	border: 1px solid #9ca3a7;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin-top: 5px;
+	position: relative;
+}
+
+.treeListLabel {
+	background-color: #f7f9fa;
+	border: 1px solid #9ca3a7;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin-top: 5px;
+	position: relative;
+	line-height: 33px;
+}
+
+.singleVoyageItem.activeVoyageDetails {
+	background-color: #f0f0f0;
+}
+
+.singleVoyageItem.activeVoyageDetails .rowRemoveIcon {
+	background-position: -311px -261px;
+}
+
+.rowRemoveIcon {
+	background-position: -200px -20px;
+	cursor: pointer;
+	height: 23px;
+	width: 19px;
+}
+
+.vesselPositionTitle {
+	width: 50%;
+	float: left;
+	line-height: 35px;
+}
+
+.exportButtons.mtb0p {
+	margin: 0;
+}
+
+.colorCode {
+	width: 40px;
+	height: 40px !important;
+	float: left;
+	margin-right: 5px;
+}
+
+.voyageData {
+	margin-left: 15px;
+}
+
+.ui-tooltip {
+	padding: 6px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+}
+
+.vesselVoyageWrapper {
+	overflow: auto;
+	width: 100%;
+	margin-top: 0;
+}
+
+.allocationTotals {
+	border-radius: 4px;
+	background: #d4d9dc;
+	width: 100%;
+	float: left;
+}
+
+.allocTotal {
+	margin-left: 0.4%;
+	padding-right: 25px;
+}
+
+.accContent .formInputWrap.doubleInput select {
+	width: 90%;
+}
+.width65per{
+	width: 65% !important;
+}
+.timePickerWidth{
+	width: 42% !important;
+}
+.threeColFormRow.formRow .rowItem {
+	width: 32%;
+}
+
+.threeColFormRow.formRow div.rowItem:nth-child(2) {
+	margin-left: 0;
+}
+
+.comboButton:hover .refreshIcon, .lightGreyGradient:hover .refreshIcon {
+	background-position: -274px -159px;
+}
+
+body table.orangeTable.dataTable .doubleInput.formInputWrap input.width25per[type="text"] {
+	width: 25% !important;
+}
+
+body table.orangeTable.dataTable .formInputWrap input.width65per[type="text"] {
+	width: 72% !important;
+}
+
+.voyageColItem .plusIcon.icons_sprite {
+	background-position: -128px -90px;
+	float: left;
+	height: 16px;
+	margin: 5%;
+	width: 18px;
+}
+
+.treeListLabel, .voyageColItem {
+	background-color: #f7f9fa;
+	border: 1px solid #9ca3a7;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	position: relative;
+	margin: 2%;
+}
+
+#maintainVesselPositionGrid tbody tr td.datePickerCell,
+	#maintainVesselPositionGrid tbody tr td.portNameCell {
+	position: relative;
+}
+
+.buttonsList .plusIcon, .plusIcon {
+	background-position: -127px -88px;
+}
+
+#maintainVesselPositionGrid  .plusIcon, #editVesselVoyageGrid .plusIcon	{
+	background-position: -128px -88px;
+}
+
+.portCancellation {
+	height: 15px;
+	margin-left: 20%;
+}
+
+.showHide {
+	text-decoration: underline;
+}
+
+body table.orangeTable.dataTable .formInputWrap input[type="text"] {
+	width: auto;
+}
+
+.conversationsList {
+	float: right;
+	position: relative;
+	right: 0;
+	top: -3px;
+}
+
+.datePickerCell .datePickerIconWrap {
+	position: absolute;
+	right: 16px;
+	top: 2px;
+}
+
+.greyBanner {
+	background-color: transparent;
+	padding: 20px 2%;
+}
+
+.greyBanner h1 {
+	font-weight: bold;
+}
+
+#vesselPositionGrid tr th, #vesselPositionGrid tr td {
+	box-sizing: border-box;
+	height: 25px;
+	padding: 0 10px;
+}
+
+#vesselPositionGrid tbody tr td.datePickerCell {
+	position: relative;
+}
+
+#vesselPositionGrid tbody tr td {
+	padding: 2px 10px;
+}
+
+#voyagePurpose {
+	float: left;
+	margin-right: 0.4%;
+}
+.vesselColContentWrapper #voyagePurpose {
+    float: none;
+}
+#voyagePurpose ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#viewVesselPositionGrid_wrapper table.dataTable thead th.center{
+	text-align: center !important;
+}
+
+#voyagePurpose ul li {
+	display: inline;
+}
+
+.legendPort {
+	margin-left: 0.4%;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
+.existingVoyages {
+	background-color: #f7f9fa;
+	border: 1px solid #9ca3a7;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 0 0.4% 10px 0.4%;
+	padding: 5px 5%;
+	width: 99%;
+	position: relative;
+}
+
+.ui-selecting {
+	background: #446181;
+}
+
+.existingVoyages.ui-selecting .rowRemoveIcon {
+	background-position: -311px -261px;
+}
+
+table.toolTipList {
+	width: 100%;
+}
+
+.toolTipList tr:nth-child(odd) {
+	background-color: #eff3f5;
+}
+
+.toolTipList tr {
+	height: 32px;
+	padding-left: 20px;
+}
+
+.toolTipContent.headerGreyBanner, .toolTipList tbody tr td {
+	padding: 0 20px;
+}
+
+.minWidth {
+	min-width: 200px;
+}
+
+.floatRight {
+	float: right;
+}
+
+.spaceWrap {
+	white-space: nowrap;
+}
+
+.datePickerInpWrap.formInputWrap input[type="text"] {
+	width: 34% !important;
+}
+
+.redBold {
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#errormsg, .searchErrorMsg {
+	display: inline-block;
+}
+
+.colInfo.formRow label {
+	line-height: 40px;
+}
+
+.bookingLabel {
+	width: auto !important;
+	float: none !important;
+}
+
+.ui-tooltip {
+	border: none;
+	padding: 0;
+	opacity: 1;
+}
+
+.ui-tooltip-content {
+	position: relative;
+	padding: 0.5em;
+}
+
+.ui-tooltip-content::after {
+	position: absolute;
+	border-style: solid;
+	display: block;
+	width: 0;
+}
+
+.right .ui-tooltip-content::after {
+	top: 5px;
+	left: -10px;
+	border-color: transparent #666;
+	border-width: 10px 10px 10px 0;
+}
+
+.left .ui-tooltip-content::after {
+	top: 18px;
+	right: -10px;
+	border-color: transparent #666;
+	border-width: 10px 0 10px 10px;
+}
+
+.top .ui-tooltip-content::after {
+	bottom: -10px;
+	left: 72px;
+	border-color: #666 transparent;
+	border-width: 10px 10px 0;
+}
+
+.bottom .ui-tooltip-content::after {
+	top: -10px;
+	left: 72px;
+	border-color: #666 transparent;
+	border-width: 0 10px 10px;
+}
+
+#vesselVoyageGridTable tbody td.columnCalcTotal input[type="text"].width25per {
+	width: 98%;
+	text-align: right;
+}
+
+.dataTable tbody tr td.datePickerCell {
+	position: relative;
+}
+
+.allocCommentInpWrap.formInputWrap input[type="text"] {
+	box-sizing: border-box;
+	float: left;
+	width: 90%;
+}
+
+.toolTipWrapper {
+	min-width: 25% !important;
+	margin-left: 25px;
+}
+
+.toolTipWrapper .tooltipTextarea {
+	width: 70%;
+	resize: none;
+	overflow-y: auto;
+}
+
+.commentTextAreaWrap {
+	box-sizing: border-box;
+}
+#conversationHistGrid td:nth-child(4) {
+    text-align: left;
+}
+#conversationHistGrid th:nth-child(3) {
+    width: 450px;
+}
+#conversationHistGrid th:nth-child(1) {
+    width: 100px;
+}
+#conversationHistGrid th:nth-child(2) {
+    width: 120px;
+}
+table.dataTable thead th {
+      text-align: left!important;
+}
+.displayStyle {
+	display: table-cell !important;
+}
+
+.allocTotalUnits.dataTable {
+	border-top: 1px solid #bbbbbb;
+}
+
+#vesselVoyageGridTable input[type="text"].width65per {
+	width: 72%;
+	margin-left: 3%;
+}
+
+.rowSubIcon {
+	background-position: -422px -293px;
+}
+
+.rowAddIcon {
+	background-position: -423px -323px;
+}
+
+.toolTipWrap.scheduleDetails {
+	float: left;
+	padding: 10px 2%;
+	width: 96%;
+}
+
+.toolTipWrap.scheduleDetails .formRow:last-child div.rowItem:nth-child(2) {
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+
+#vesselVoyageGridTableWrapper table.dataTable.orangeTable thead th {
+	padding: 0 6px;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+	padding: 0;
+	text-align: center;
+}
+
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+	display: none;
+}
+
+table.dataTable tbody tr td.addRemoveCell {
+	position: relative;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+table.dataTable tbody tr td.allocCell {
+	position: relative;
+	box-sizing: border-box;
+}
+
+td.addRemoveCell .rowRemoveIcon {
+	position: absolute;
+	right: 3px;
+	top: 5px;
+}
+
+td.addRemoveCell .addInput, td.addRemoveCell .subInput, table.dataTable tbody tr td.allocCell .icons_sprite {
+	margin-left: 2px;
+}
+
+td.addRemoveCell .addInput {
+	line-height: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+td.addRemoveCell .subInput {
+	float: left;
+	cursor: pointer;
+	line-height: 15px;
+	padding-left: 2px;
+	padding-top: 3px;
+}
+
+table.dataTable tbody tr td input[type="text"] {
+	height: 25px;
+	box-sizing: border-box;
+	width: 100%;
+}
+.regComm{
+	width: 110%;
+}
+.dataTables_scrollFootInner, .dataTables_scrollHeadInner {
+	padding-left: 0 !important;
+}
+
+h1.rolesTitle {
+	padding-top: 0;
+}
+
+.formInputWrap input[type="text"] {
+	height: 23px;
+	line-height: 23px;
+	width: 97%;
+	padding-left: 1%;
+}
+
+.formInputWrap select {
+	height: 25px;
+	line-height: 20px;
+	width: 99.5%;
+}
+
+.redBgColor {
+	background-color: #ff0000;
+}
+
+.redBordr {
+	border: 1px solid #ff0000 !important;
+}
+
+.vesselColContentWrapper.compressedState {
+	float: left;
+	margin: 12px 0 0 15%;
+	padding-left: 1%;
+	width: 84%;
+}
+
+.defaultSearchMsg {
+	position: relative;
+	top: 35%;
+}
+
+.defaultSearchMsg p.first {
+	font-weight: bold;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.defaultSearchMsg p.second {
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.mr5p {
+	margin-right: 5% !important;
+}
+
+#newVesselVoyageSchedulePopup .threeColFormRow label {
+	white-space: normal;
+	margin-right: 2%;
+	text-align: right;
+}
+
+#editVesselVoyageSchedulePopup .threeColFormRow label {
+	margin-right: 2%;
+	white-space: normal;
+	text-align: right;
+	line-height: 20px;
+}
+
+#editVesselVoyageSchedulePopup .threeColFormRow .formInputWrap {
+	width: 68%;
+}
+
+.singleColFormRow .rowItem.width100per label {
+	margin-right: 0;
+	width: 11%;
+	text-align: center;
+}
+
+.singleColFormRow  .rowItem.width100per .formInputWrap {
+	width: 89%;
+	margin-left: 0;
+}
+
+.customTooltip {
+	border: 1px solid #ff1515;
+	padding: 0.25em;
+}
+
+.w35p {
+	width: 35px !important;
+}
+
+.w25p {
+	width: 25px !important;
+}
+
+.voyageNum.w25p {
+	width: 35px !important;
+}
+
+.w50p {
+	width: 50px !important;
+}
+
+.w60p {
+	max-width: 60px !important;
+	min-width: 60px !important;
+}
+.operatorDataWidth{
+	max-width: 100% !important;
+	min-width:  100% !important;
+}
+td.flexibleCol input[type="text"] {
+	width: 100%;
+}
+
+div[aria-describedby=newVesselVoyageSchedulePopup] {
+		z-index: 1000 !important;
+}
+
+table.dataTable#maintainVesselPositionGrid thead .sorting_asc, table.dataTable#maintainVesselPositionGrid thead .sorting_desc,
+	table.dataTable#maintainVesselPositionGrid thead .sorting {
+	cursor: default;
+}
+
+h1.rolesTitle {
+	line-height: 25px;
+}
+div[aria-describedby=newVesselVoyageSchedulePopup] {
+	z-index: 1000 !important;
+}
+.ui-autocomplete, .ui-autocomplete.ui-front {
+	/*width: auto !important;*/
+	z-index: 10000 !important;
+}
+.datePickerStyle {
+	position: relative;
+	margin-top: 8px;
+	word-break: break-all;
+}
+
+body .modelPopupBground {
+	z-index: 99;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	left: 0;
+	top: 0;
+	position: fixed;
+	opacity: .6;
+	text-align: center;
+	display: none;
+}
+
+#maintainVesselPositionGrid.dataTable, #viewVesselPositionGrid.dataTable,
+	#addNewVesselGrid.dataTable {
+	width: 99% !important;
+}
+#maintainVesselPositionGrid .addRemoveCell input{
+	display: table-cell;
+	float: left;
+}
+#maintainVesselPositionGrid .addRemoveCell input + .positionStyle{
+	display: table-cell;
+}
+
+#maintainVesselPositionGrid .checkboxAlign,
+#maintainVesselPositionGrid .timeZoneData{
+    text-overflow: initial !important;
+}
+
+
+#vesselVoyageGridTable.dataTable {
+	width: 100%;
+	min-width: 100% !important;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+    margin: 0 auto;
+}
+
+.DTTT_container {
+	display: none;
+	position: relative;
+	margin-left: 0;
+}
+
+.DTTT_container  a.exportExcelLnk {
+	margin-left: 0;
+}
+
+#maintainVesselPositionGridWrapper .orangeGradientBackground {
+	border-left: none;
+	display: inline-block;
+	height: auto !important;
+	padding: 0;
+	width: auto;
+	background: none;
+}
+
+.mb10p {
+	margin-bottom: 10px;
+}
+
+.toolTipWrapper {
+	padding: 0.5em;
+	z-index: 9999;
+	max-width: 50%;
+}
+
+.rowRemove.disabledCursor {
+	cursor: default;
+}
+
+.conversationTitle {
+	font-weight: 700;
+	margin: 10px 0 10px 10px;
+}
+
+.vesselDetlsWrapper .formRow {
+	margin-top: 5px;
+}
+
+.vesselDetlsWrapper .formRow label {
+	line-height: 23px;
+	vertical-align: top;
+}
+
+#viewVesselPositionGrid tbody tr td {
+	height: 25px;
+	padding: 0 2px;
+	text-align: left;
+}
+
+#editVesselVoyageGrid tbody tr td, #addNewVesselGrid tbody tr td {
+	text-align: left;
+}
+
+.ui-dialog-content .formInputWrap.doubleInput input[type="text"] {
+	height: 25px;
+}
+
+.toolTipWrap.scheduleDetails {
+	word-break: break-all;
+}
+
+input:not(.portcallCancel):focus {
+	border: 1px solid #0080ff !important;
+}
+
+.savePreference {
+	text-decoration: underline;
+}
+
+.resetFilter {
+	display: block;
+	float: none;
+	text-align: right;
+}
+
+.exportButtons.mtb10 {
+	margin: 10px 0 10px 0 !important;
+}
+
+.lightGreyGradient.normalBtnLink.bigGreyLnk.mt10 {
+	padding: 5px 1% 5px;
+}
+
+#collapseHeaderNav {
+	padding: 0;
+	margin-left: 1em;
+	margin-top: 8px;
+}
+
+.icons_sprite.buttonIcon.collapseIcon {
+	background-position: -159px -321px;
+	padding: 0.25em;
+	transform: rotate(-90deg);
+	margin: 0;
+}
+
+.icons_sprite.collapseIcon {
+	background-position: -346px -323px;
+}
+
+.mainSection {
+	min-height: 1024px;
+    height: auto;
+}
+header, .mainSection, .footerBar {
+    width: 100%;
+}
+.leftSearchMenu {
+	height: auto;
+}
+
+.vesselAccordionWrapper {
+	min-height: inherit;
+}
+
+.formInputWrap.doubleInput.width100per .width33per {
+	width: 33%;
+}
+
+.formInputWrap.doubleInput.width100per .w66 {
+	width: 66%;
+}
+
+.marginLeft1px {
+	margin-left: 1%;
+}
+
+.ui-dialog .ui-dialog-content.newVesselWrap {
+	padding: .5em;
+}
+
+#newVesselVoyageSchedulePopup  .formInputWrap {
+	width: 68%;
+}
+
+#newVesselVoyageSchedulePopup  .formInputWrap.voyageCommentWrap {
+	width: 87.5%;
+}
+
+.popUpTitle.vesselPopUpTitle {
+	width: 50%;
+	float: left;
+	line-height: 35px;
+}
+
+.importExcelWrap {
+	width: 40%;
+	margin-top: 20px;
+	margin-right: 0;
+}
+.addRemoveCell .w50p {
+	width: 38px !important;
+}
+.w105p {
+	width: 105px;
+}
+
+.w45p {
+	width: 45px !important;
+}
+
+.w75p {
+	width: 20% !important;
+}
+
+.w80p {
+	width: 80px !important;
+}
+
+.w94p {
+	width: 94px !important;
+}
+
+.w106p {
+	width: 99% !important;
+}
+
+.w150p {
+	width: 78% !important;
+	margin-left: 1%;
+}
+
+.w300p {
+	width: 300px !important;
+}
+
+.w100p {
+	width: 100px !important;
+}
+
+#maintainVesselPositionGrid {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.timepickerCell.datePickerCell .datePickerIconWrap .datePickerIcon {
+	margin-top: 0;
+}
+
+#vesselVoyageGridTable td {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#vesselVoyageGridTable tbody td input[type="text"] {
+	width: 100%;
+}
+
+.portData {
+	width: 80px;
+}
+
+.regCommentData {
+	width: 100px;
+}
+
+.allocComments {
+	width: 115px;
+}
+
+.ui-dialog .ui-dialog-content.newVesselWrap {
+	padding: 0.5em;
+}
+
+.editVesselVoyageGridWrapper .greyBoldText {
+	margin-top: 10px;
+}
+
+.iconCell .rowAddition span{
+	border: 1px solid #d9d9d9;
+    padding: 2px;
+}
+
+.voyageDescData .icons_sprite{
+	background-image: url('../../img/core/icons/icons_sprite.png');
+    display: block;
+    width: 15px;
+    height: 18px;
+}
+#vesselVoyageGridTable .columnCalcTotal.staticCol .stReqVol {
+    border-right: none;
+}
+
+table.dataTable input[readonly][type="text"], table.dataTable input[disabled][type="text"], table.dataTable input[readonly][type="checkbox"], table.dataTable input[disabled][type="checkbox"] {
+    background-color: #ececec !important
+}
+
+
+/* @media all and (min-width: 1920px) */
+@media screen and (width: 1920px) and (height: 1080px) {
+	.w80p {
+		width: 90px !important;
+	}
+	.w150p {
+		width: 60% !important;
+		margin-left: 1%;
+	}
+	#vesselVoyageGridTable tbody td input[type='text'].width25per {
+		width: 50px;
+	}
+	#maintainVesselPositionGrid .arrivalDateTime,
+		#maintainVesselPositionGrid .departureDateTime {
+		width: 98px;
+	}
+	#maintainVesselPositionGrid  .portComment {
+		width: 215px;
+	}
+}
+
+/* Back up media queries Start */
+@media all and (max-width: 1599px) {
+	.vesselColContentWrapper .allocDetTabs ul li:first-child {
+	    margin-left: -2px !important;
+	}
+	.leftSearchMenuContent {
+		height: 605px;
+	}
+	table.dataTable tbody tr td input[type="text"].dateTimeBox {
+		width: 109%;
+	}
+}
+
+@media all and (min-width: 1600px) {
+	.leftSearchMenuContent {
+		height: 60px;
+	}
+	.vesselColContentWrapper .allocDetTabs ul li:first-child {
+		margin-left: -3px !important;
+	}
+}
+
+.toolTipWrapper .formRow label {
+	margin-right: 5px;
+}
+
+.toolTipWrapper .formRow .formInputWrap {
+	line-height: 20px;
+}
+
+.toolTipWrapper .singleColFormRow.formRow  label {
+	width: 20%;
+	margin-right: 5%;
+	text-align: left;
+}
+
+.toolTipWrapper .singleColFormRow.formRow .formInputWrap {
+	width: 75%;
+}
+
+.dataTables_scrollFootInner table.dataTable tfoot td {
+	padding: 0 0;
+}
+
+#confirmDialogForm .whitebutton {
+	padding: 9px 27px 9px 27px;
+}
+
+#confirmDialogForm  .whitebutton.dialogCloseIcon.cancelButton {
+	padding: 9px 36px 10px 36px;
+}
+
+#confirmDialogForm .cancelButton, #confirmPortcallDelete .cancelButton {
+	min-width: 0;
+}
+
+.formSubmitButtons {
+	margin-top: 15px;
+	float: right;
+	margin-right: 0;
+}
+/* Back up media queries End */
+#vesselVoyageGridTableWrapper .dataTables_scrollFootInner {
+	padding-left: 0 !important;
+}
+
+.dataTable #maintainVesselPositionGrid {
+	border: 0 !important;
+}
+
+.warningBG {
+	background-color: #fffe86 !important;
+}
+table.dataTable .columnCalcTotal input[readonly].warningBG {
+	background-color: #fffe86 !important;
+}
+.newVesselVoyageGridWrapper .collapseData.hidden {
+	display: none;
+}
+
+#addNewVesselGrid_wrapper .dataTables_scrollHeadInner,
+	#addNewVesselGrid_wrapper table {
+	width: 100% !important;
+}
+
+.equalPad {
+	padding: 2px 10px 5px 10px !important;
+}
+
+.footerFormRow {
+	padding: 10px 0;
+}
+
+#maintainVesselPositionGrid_wrapper {
+	z-index: 0;
+}
+
+.datePickerIconWrap .datePickerIcon {
+	cursor: pointer;
+	float: right;
+	margin-top: 0;
+}
+
+label#sVessel {
+	margin-right: 2%;
+	width: 40%;
+}
+.allocColCheck{
+	line-height: 13px;
+}
+#viewVesselPositionGrid_wrapper td.flexibleCol input[type="text"] {
+	width: 95%;
+}
+
+.alertIcon {
+	float: left;
+	margin: 0 7px 20px 0;
+}
+
+#maintainVesselPositionGrid td .voyageNum {
+	width: 99%;
+}
+
+#maintainVesselPositionGrid td .portcallCancel {
+	margin-left: 10px;
+}
+
+#addNewVesselGrid td .portName, #addNewVesselGrid td .vesselDates,
+	#editVesselVoyageGrid td .dateTimeBox {
+	width: 100%;
+}
+
+#addNewVesselGrid td .w60p, #editVesselVoyageGrid td .w60p {
+	max-width: 56px;
+}
+
+#conversationHistGrid{
+	width: auto !important;
+}
+
+#conversationHistGrid td.commentCov {
+	max-width: 400px;
+	min-width: 100px;
+	white-space: normal;
+	word-break: break-all;
+	padding-right: 0.57%;
+}
+
+tfoot td.columnCalcTotal {
+	text-align: right !important;
+	padding: 0 2px 0 10px !important;
+}
+
+#leftSearchMenu td:nth-child(1), #leftSearchMenu td:nth-child(2) {
+	display: none;
+}
+
+#leftMenuSearchButton {
+	width: 100%;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#leftSearchMenu td {
+	border: none !important;
+}
+
+.toolTipWrapper .formRow {
+	margin-left: 5px;
+	margin-top: 0 ;
+}
+
+.colOdd {
+	width: 25%;
+	    margin-left: 0;
+}
+
+.colEven {
+	width: 74%;
+	margin-left: 0 !important;
+}
+
+.toolTipWrapper .formInputWrap {
+	width: auto;
+}
+.voyageDescData .colOdd div.pageTitle{
+	    margin-left: 5px;
+}
+
+.toolTipWrapper .colOdd .spaceWrap {
+	margin-left: 2%;
+}
+
+.voyageListItem li {
+	height: 40px;
+	float: left;
+	width: 20%;
+}
+
+.voyageListItem li:nth-child(1) {
+	width: 40%;
+}
+
+.leftSearchMenuHeader {
+	font-weight: bold;
+    width: 15%;
+    float: left;
+    cursor: pointer;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.searchRes {
+	float: right;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.findSchedule {
+	display: inline !important;
+}
+
+#newVesselVoyageSchedulePopup .formInputWrap .voyageComments,
+	#editVesselVoyageSchedulePopup .formInputWrap #voyageComments {
+	width: 100%;
+}
+
+.threeColFormRow.formRow .rowItem.alignRight {
+	float: right;
+}
+
+.allocDtls .rowItem:nth-child(1) {
+	width: 40%;
+}
+
+.allocDtls .rowItem:nth-child(2) {
+	width: 33%;
+	margin-left: 10px !important;
+}
+
+.allocDtls .rowItem:nth-child(3) {
+	width: auto;
+	margin-left: 40px;
+}
+
+.allocDtls .rowItem label {
+	width: 21%;
+	margin-right: 2px;
+}
+.allocDtls .rowItem .formInputWrap {
+	width: 75%;
+}
+#addAllocation, #delAllocation {
+	width: 100px;
+    line-height: 21px;
+    margin: 0 !important;
+    height: 21px;
+    border: none !important;
+    padding: 0;
+    text-align: left;
+}
+
+.tabSection {
+	margin-top: 0;
+}
+
+.tabSection .formRow {
+	margin-top: 10px;
+}
+.formRow.vesselVoyageDataGrid {
+    margin-top: 0 !important;
+}
+.tabSection .doubleInput div {
+	width: 30% !important;
+}
+
+.bookReady label {
+	vertical-align: text-bottom;
+}
+
+.bookReady {
+	margin-left: 6px;
+}
+
+.tabSection .formRowContent {
+	min-height: 85px;
+	background-color: #f0f0f0;
+}
+
+.tabSection li:first-child {
+	margin-left: 0 !important;
+}
+
+#applyTemplte, .refreshBtn, #saveAllocation {
+	min-width: auto;
+	margin-right: 0 !important;
+}
+
+#saveAllocation {
+	text-align: center !important;
+	width: 100px;
+    line-height: 21px;
+    margin: 0 !important;
+    height: 21px;
+    border: none !important;
+    padding: 0;
+}
+
+#tabs {
+	border: none !important;
+	margin-top: -8px;
+}
+
+#tabs ul li {
+	background: none;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: -3px;
+	border-radius: 0;
+}
+
+#tabs ul li:not(.ui-state-active) {
+	border: none !important;
+}
+
+#tabs ul li a {
+	color: black;
+	font-size: 14px;
+    font-weight: normal;
+}
+.vesselColContentWrapper .allocDetTabs ul li.ui-tabs-active.ui-state-active.ui-state-hover, .vesselColContentWrapper .allocDetTabs ul li.ui-tabs-active.ui-state-focus  {
+	border: 1px solid #cccccc !important;
+	border-bottom: none !important;
+}
+.vesselColContentWrapper .allocDetTabs .tabSection.ui-widget-content{
+	border-radius: 0;
+	border: 1px solid #cccccc !important;
+	margin-top: -1px;
+	font-size: 11px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background-color: #f0f0f0 !important;
+}
+
+.formRowContent i {
+	font-weight: bold;
+}
+
+#viewVesselPositionGrid tbody input[type='checkbox'] {
+	margin-left: 17px;
+}
+
+#maintainVesselPositionGrid .alignIcon {
+	text-align: center;
+	min-width: 10px;
+	border-right: 1px solid #ececec;
+}
+#maintainVesselPositionGrid th.alignIcon {
+    border-right: none;
+}
+.popUpTitle, .showColumnsCb {
+	margin-left: 15px;
+}
+
+.commentTextAreaWrap p {
+	float: left;
+	margin-right: 10px;
+}
+
+#wrapper td.checkboxAlign, #editVesselVoyageGrid tbody tr td.checkboxAlign, #addNewVesselGrid tbody tr td.checkboxAlign, #maintainVesselPositionGrid tr th.checkboxAlign {
+	text-align: center !important;
+}
+
+button.dt-button {
+	margin-left: 0.5px;
+	top: 0;
+	padding-bottom: 6px;
+}
+
+#wrapper .w120p {
+	width: 120px !important;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+	border-bottom: 1px solid #ececec;
+}
+
+.resetSearch {
+	width: 14%;
+	padding: 0 6% !important;
+}
+
+.rowItem.mgnLftNone {
+	margin-left: 0;
+}
+
+.formSubmitButtons .linkCancelButton {
+	padding: 0;
+	min-width: 100px;
+}
+
+#editVesselVoyageGrid tbody tr td.dataTables_empty, #addNewVesselGrid tbody tr td.dataTables_empty {
+	text-align: center;
+}
+
+
+#editVesselVoyageGrid tbody tr td .textAlignRight, #addNewVesselGrid tbody tr td .textAlignRight {
+	text-align: right;
+}
+#vesselVoyageGridTable .customer input:nth-child(1){
+	padding-left: 2px;
+}
+#vesselVoyageGridTable .carReqVol,
+#vesselVoyageGridTable .puReqVol,
+#vesselVoyageGridTable .hhReqVol{
+	    border-right: none;
+}
+
+
+.rd-day-body .rd-day-selected {
+	width: 8px;
+	min-width: 8px;
+}
+
+.rd-date th:nth-child(1):not(.ui-datepicker-week-end) {
+	width: auto!important;
+}
+
+.rd-date table.rd-days th {
+	padding-left: 0 !important;
+}
+
+#tempDropDown {
+	width: 79.5% !important;
+}
+
+.tooltipSubmitFormData .formSubmitButtons {
+	margin-right: 10px;
+}
+
+#viewVesselPositionGrid tbody tr td:nth-child(1) {
+	padding: 0 10px;
+}
+
+/* table.dataTable tbody tr td .sheduleMainPort{
+	width: 96% !important;
+}
+table.dataTable tbody tr td  input.voyageNum[type="text"]{
+	    margin-left: 10px;
+} */
+.rd-days tr td{
+	border: 1px solid #fff !important;
+}
+.rd-container table.rd-days tr td.calendarHover{
+	cursor: pointer;
+	width: auto;
+}
+.rd-container table.rd-days{
+	border-collapse: inherit;
+}
+#vesselVoyageGridTable thead > tr:first-child th:nth-child(3),
+#vesselVoyageGridTable thead > tr:first-child th:nth-child(4),
+#vesselVoyageGridTable thead > tr:first-child th:nth-child(5),
+#vesselVoyageGridTable thead > tr:first-child th:nth-child(6){
+	background: rgba(240,240,240,0.4);
+    text-align: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+        border-right: none;
+            height: 48px;
+    vertical-align: bottom;
+    /* border-right: 10px solid white; */
+}
+
+
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(3),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(4),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(5),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(6),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(7),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(8),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(9),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(10),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(11),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(12),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(13),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(14),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(15),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(16),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(17),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(18),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(19),
+#vesselVoyageGridTable thead > tr:last-child th:nth-child(20){
+	text-align: center !important;
+	height: 32px;
+}
+#vesselVoyageGridTable .columnCalcTotal{
+	background: rgba(240,240,240,0.4);
+}
+
+h1.allocationTitle{
+	line-height: 25px !important;
+}
+.wid80px{
+	width: 80px !important;
+}
+.confirmDialogPopupClose .ui-dialog-titlebar-close{
+	background: none !important;
+    border: none !important;
+}
+.confirmDialogPopupClose .confirmDialogWrapper .rowItem{
+	float: none;
+}
+#maintainVesselPositionGrid td.deleteData {
+	text-align: center;
+}
+.allocDtls #applyTemplte{
+	  border: none !important;
+    width: 20%;
+    padding: 0;
+    text-align: center;
+    outline: none;
+    height: 21px;
+    display: block;
+}
+.allocDtls .formRow:nth-child(2) .rowItem:nth-child(3){
+	    width: 21%;
+}
+#viewVesselPositionGrid.dataTable tbody tr td input[type="text"].dateTimeBox {
+	width: 100%;
+}
+#vesselVoyageGridTable input.w75px.bookingOfficeCode{
+	    width: 17% !important;
+}
+#vesselVoyageGridTable input.w150px.bookingOfficeName{
+	    width: 83% !important;
+}
+.enableField{
+	border-left: none !important;
+    border-right: none !important;
+    background: no-repeat !important;
+}
+
+
+
+@media screen and (min-width:1600px){
+	.allocDtls .formRow:nth-child(2) .rowItem:nth-child(2) {
+	    margin-left: 5px !important;
+	}
+	.allocDtls .formRow:nth-child(2) .rowItem:nth-child(3) {
+	    width: 17%;
+	    margin-left: 40px;
+	}
+	.allocDtls #addAllocation {
+    	margin-left: 2px !important;
+	}
+	.allocDtls .floatRight.buttonsList {
+	    margin-right: 1px;
+	}
+	.allocDtls .rowItem label {
+		width: 15%;
+	}
+	.allocDtls .rowItem .formInputWrap.templateDiv {
+		width: 83.5%;
+	}
+	.allocDtls .rowItem:nth-child(1) {
+		width: 45%;
+	}
+	#vesselVoyageGridTable tr td input[type="text"].allocComment {
+		width: 85%;
+	}
+}
+@media screen and (max-width:1599px){
+	.allocDtls #addAllocation {
+	    	margin-left: 7px !important;
+	}
+	.allocDtls .floatRight.buttonsList {
+	    margin-right: 3.5%;
+	}
+	#vesselVoyageGridTable tr th:nth-child(2){
+		width: 200px !important;
+	}
+}
+@media screen and (max-width:1900px){
+	#vesselVoyageGridTable tr:first-child th.allocGridRightBorder.colSpan5 {
+		width: 160px !important;
+	}
+	#vesselVoyageGridTable tr:first-child th.allocGridRightBorder.colSpan4 {
+		width: 130px !important;
+	}
+	.fixedHeader-floating thead tr:first-child th.colSpan5 {
+		width: 130px !important;
+		min-width: 130px !important;
+	}
+	.fixedHeader-floating thead tr:first-child th.colSpan4 {
+		width: 110px !important;
+		min-width: 110px !important;
+	}
+}
+@media screen and (min-width:1901px){
+	#vesselVoyageGridTable tr:first-child th.allocGridRightBorder.colSpan5 {
+		width: 235px !important;
+	}
+	#vesselVoyageGridTable tr:first-child th.allocGridRightBorder.colSpan4 {
+		width: 200px !important;
+	}
+	.fixedHeader-floating thead tr:first-child th.colSpan5 {
+		width: 205px !important;
+		min-width: 205px !important;
+	}
+	.fixedHeader-floating thead tr:first-child th.colSpan4 {
+		width: 180px !important;
+		min-width: 180px !important;
+	}
+}
+.allocCommentIconWrap .rowRemoveIcon.fa-remove {
+    margin-left: 5% !important;
+}
+#vesselVoyageGridTable tr th:nth-child(2){
+	width: 250px;
+}
+.fixedHeader-floating {
+	max-width: 1585px !important;
+	width: auto !important;
+}
+#vesselVoyageGridTable td.allocCell {
+    box-sizing: border-box;
+}
+.allocGridRightBorder {
+	border-right: 10px solid white !important;
+}
+.allocCommentCol{
+	background: #ffffff !important;
+}
+.submitFromData {
+    height: 5px;
+}
+.colOdd .spaceWrap.pageTitle {
+    width: 25%;
+}
+.colEven .spaceWrap.pageTitle {
+    width: auto;
+}
+#maintainVesselPositionGrid td.deleteData .fa-remove{
+	margin: 0;
+}
+#viewVesselPositionGrid_wrapper .dateTimeSpan {
+	margin-left: -30px;
+}
+#viewVesselPositionGrid td.minWidthData input {
+    padding-left: 15px !important;
+}
+#viewVesselPositionGrid td.flexibleCol input {
+    padding-left: 10px !important;
+}

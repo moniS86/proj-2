@@ -1,0 +1,399 @@
+@import url("customCheckBox.css");
+@import url("customRadioBtn.css");
+@import url("customDataTable.css");
+@import url("customPopup.css");
+@import url("dataTables.fontAwesome.css");
+body, textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: black;
+  border-radius: 0;
+  line-height: 100%;
+}
+body {
+	overflow-x: hidden;
+}
+textarea {
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+input[type="text"], .ui-widget input[type="text"]{
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  color: #000000;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 11px;
+  height: 22px;
+  padding-right: 2px;
+  padding-left: 2px;
+  box-sizing: border-box;
+ }
+input[readonly]:not(.warningBG):not(.saveButton), input[disabled]:not(.saveButton):not(.bookingBLNum), select[readonly], select[disabled], textarea[disabled]{
+  background-color: #ececec !important;
+ color: #6b6b6b !important;
+}
+
+.saveButton:disabled{
+	background: #a1b0c0 !important;
+	border: 1px solid #a1b0c0;
+}
+
+input[type="button"], input[type="submit"], .ui-widget button:not(.fa-remove):not(.exportExcelLnk):not(.linkCancelButton) {
+  border: 1px solid #446181;
+  background: #446181 no-repeat;
+  line-height: 0;
+  height: 22px;
+  padding: 0;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 11px;
+}
+input[type="radio"][disabled="disabled"]:checked:after {
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+}
+input[type="radio"].selectedRoute,
+input[type="radio"].mainLeg {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.title{
+	font-size: 14px;
+	font-weight: bold;
+}
+.subTitle{
+	font-size: 14px;
+	font-weight: normal !important;
+}
+.linkButton, .orangeButton, button {
+  border: 1px solid #446181;
+ background: #446181 no-repeat;
+  line-height: 20px;
+  height: 20px;
+  padding: 0 16px 0;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 11px;
+  margin-bottom: 0 !important;
+}
+.linkButton.disabledButton {
+    border: 1px solid #b6b6b6;
+    background: #a1b0c0 no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    cursor: default;
+}
+.linkCancelButton, .cancelButton, input[type="button"].linkCancelButton, input[type="button"].cancelButton {
+  border: 1px solid #6b6b6b;
+  background: #6b6b6b no-repeat;
+  line-height: 20px;
+  height: auto;
+  padding: 0 16px 0;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 11px;
+   margin-left: 2px;
+}
+.linkCancelButton:focus,.cancelButton:focus {
+	outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.linkbutton:last-of-type {
+	margin-right: 15px;
+}
+.searchButton {
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+select, .ui-widget select {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  color: #000000;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 11px;
+  height: 22px;
+}
+
+textarea, .ui-widget textarea {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  color: #000000;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 11px;
+  resize: none;
+  height: 100px;
+  width: 90%;
+}
+.accHeader{
+	border: 1px solid #d9d9d9;
+    padding: 10px 0!important;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 100%;
+    text-align: left!important;
+    background-color: white!important;
+    border-radius: 0 0 0 0;
+    color: black;
+    background: none;
+    outline: none!important;
+}
+
+.accContent{
+	border: 1px solid #d9d9d9;
+}
+body a{
+	color: black;
+}
+
+.fa-plus, .fa-minus {
+	margin: 0 5px;
+}
+.fa-file-text{
+	color: #9b9b9b;
+}
+
+.fa-remove {
+	line-height: 20px;
+	margin: 0 5px;
+}
+
+.orangeHeader {
+	background: #ffffff;
+}
+
+.toolTipCloseIcon {
+	width: 20px;
+}
+#leftSearchMenu select{
+	background-color: #ffffff;
+}
+#leftSearchMenu th,td{
+	padding-left: 0;
+}
+#leftSearchMenu label {
+	font-weight: bold;
+}
+#leftSearchMenu table{
+	margin-top: 5px;
+}
+.exportButtons.mt10b5 .fa, .importExcelWrap .fa.fa-file-excel-o, .dt-buttons .fa.fa-file-excel-o, .buttonsList .fa.fa-remove{
+	margin: 0 5px;
+}
+.exportButtons.mt10b5, .pageTitle.mt10b5{
+	width: 100%;
+	height: 26px;
+	margin: 0 0 5px -11px !important;
+	padding: 0 15px;
+	background-color: #f0f0f0;
+	font-size: 14px;
+}
+.buttons-excel.buttons-html5.exportExcelLnk{
+	font-weight: normal;
+	height: 22px !important;
+    line-height: 10px !important;
+}
+.pageTitle{
+	font-size: 14px;
+}
+.breadcrumb li{
+	display: none;
+}
+.exportButtons a{
+	line-height: 20px;
+}
+.exportButtons h1{
+	line-height: 100%;
+}
+.exportExcelLnk{
+	height: auto !important;
+	line-height: 12px !important;
+}
+
+.ui-widget-content {
+    border: 1px solid #d9d9d9;
+}
+
+.ui-widget-overlay {
+    background: #ffffff;
+    opacity: 0.9;
+    filter: Alpha(Opacity=50);
+}
+.ui-accordion-content{
+	border-radius: 0 !important;
+}
+
+/* calender css start */
+.ui-datepicker-title select.ui-datepicker-year {
+	border: none;
+	width: 33%;
+	font-weight: bold;
+}
+.ui-datepicker-calendar .ui-state-default{
+	border-color: #ffffff;
+    background-color: #ffffff;
+    background-image: none;
+    color: #000000;
+}
+.rd-days td.rd-day-selected, .rd-time-selected, .rd-time-option:hover, .ui-datepicker-calendar .ui-state-hover, .ui-datepicker-calendar .ui-state-active, .rd-container table.rd-days tr td.calendarHover{
+	border: 1px solid #6b6b6b !important;
+    background-color: #c9c9c9 !important;
+    background-image: none;
+    color: #000000;
+}
+.ui-datepicker-header.ui-widget-header .ui-state-hover{
+	border: none;
+	background: none;
+	color: #000000;
+}
+.rd-container .rd-next, .ui-datepicker-header .ui-datepicker-next.ui-state-hover .ui-icon, .ui-datepicker-header .ui-datepicker-next .ui-icon,
+.rd-container .rd-back, .ui-datepicker-header .ui-datepicker-prev.ui-state-hover .ui-icon, .ui-datepicker-header .ui-datepicker-prev .ui-icon{
+	background-image: url('../../img/core/jquery-ui/ui-icons_222222_256x240.png');
+	background-position: -34px -1px;
+}
+.rd-container .rd-back, .ui-datepicker-header .ui-datepicker-prev.ui-state-hover .ui-icon, .ui-datepicker-header .ui-datepicker-prev .ui-icon{
+	background-position: -96px -1px;
+}
+.rd-days tr td, .ui-datepicker-calendar td, .ui-dialog-buttonpane {
+    border: none !important;
+}
+.rd-container, #ui-datepicker-div {
+    border: 1px solid #ececec !important;
+    border-radius: 0;
+}
+#ui-datepicker-div tbody{
+	border: 5px solid #ffffff;
+}
+/* calender css end */
+
+/* mass action css start*/
+.massActionListLink {
+	width: 24px;
+	background-color: #f0f0f0;
+    height: 100px;
+    position: absolute;
+    top: 40px !important;
+    z-index: 99;
+    left: -24px !important;
+}
+.rightActionListWrapper{
+	background-color: #f0f0f0;
+}
+.blueAccordion h3.blueHeader{
+	background: #446181 none;
+	margin-top: 5px;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: normal;
+    width: 95%;
+}
+.actionListWrapStyles.rightActionListWrapper{
+	width: 20%;
+    padding: 15px 20px;
+}
+.rightActionListWrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    min-height: 600px;
+    max-height: 790px;
+    max-width: 20%;
+    padding: 15px 0;
+    min-width: 5px;
+}
+.blueAccordion .blueHeader {
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+	width: 100%;
+	text-align: left !important;
+	cursor: pointer;
+}
+.massActionText{
+	display: inline-block;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotate(-90deg) translate(-70px, 6px);
+    transform: rotate(-90deg) translate(-70px, 6px);
+    width: 150px;
+}
+.fa-chevron-left, .fa-chevron-right{
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+}
+/* mass action css end*/
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-warning{
+	color: #cc5200;
+}
+
+.ui-dialog button{
+	min-width: 60px;
+}
+.ui-autocomplete li.ui-menu-item{
+	padding-left: 0;
+	padding-right: 0;
+}
+.ui-autocomplete div.ui-menu-item-wrapper.ui-state-active {
+    width: 150%;
+    padding: 5px 0 5px 0;
+}
+.linkButton:last-of-type:not(#mainViewSummaryLink):not(#viewPrintSettingsLink):not(#makeModelListLink):not(#cargoListLink):not(#bookingRateListLink):not(.rmvPartyitem) { 
+	margin-right: 15px;
+}
+#vesselAccordion .orangeHeader{
+	border-bottom: 0;
+}
+/* table.dataTable tbody tr td{
+	height: 24px;
+	position: relative;
+	padding: 0;
+}
+table.dataTable tbody tr td input[type="text"][readonly="readonly"] {
+    border-bottom: none !important;
+    border-top: none !important;
+    height: 100% !important;
+    border-left: none !important;
+    border-right: none !important;
+    margin-left: 10px;
+}
+table.dataTable tbody tr td input[type="text"]{
+    border-bottom: none !important;
+    border-top: none !important;
+    height: 100% !important;
+    border-left: 1px solid #ececec !important;
+    border-right: 1px solid #ececec !important;
+} */
+
+
+

@@ -1,0 +1,539 @@
+.elementTitle {
+	display: block;
+	font-weight: bold;
+}
+
+.blEleVal {
+	display: block;
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.singleEle {
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+	border-top: 2px solid #40a0ff;
+	min-height: 38px;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	white-space: normal;
+}
+
+.singleEle.width50per {
+	width: 50%;
+	float: left;
+	border-left: 1px solid #40a0ff;
+}
+
+#makeBlClone table#addressTable.dataTable tr td .singleEle.width50per:nth-child(1) {
+	border-left: 0;
+}
+
+#makeBlClone table#addressTable.dataTable tbody td .singleEle:first-of-type {
+	margin-top: 0 !important;
+}
+
+
+#makeBlClone  table {
+	width: 100%;
+}
+
+#makeBlClone  tr td:nth-child(2) {
+	border-left: 2px solid #40a0ff;
+}
+
+#makeBlClone table.dataTable tbody td,#makeBlClone  table.dataTable  td {
+	padding: 0 !important;
+	vertical-align: top;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	white-space: normal;
+}
+
+#makeBlClone table.dataTable {
+	padding: 0 !important;
+	vertical-align: top;
+	border-bottom: 2px solid #40a0ff;
+}
+
+#makeBlClone table.particularsTable.dataTable td {
+	border-top: 2px solid #40a0ff;
+	border-left: 2px solid #40a0ff;
+	font-weight: bold;
+	padding: 10px !important;
+}
+
+#makeBlClone table.particularsTable.dataTable  td .singleEle {
+	border-top: 0;
+	padding: 0;
+}
+
+.particularsTitle {
+	margin: 10px 0;
+	text-align: center;
+	border-top: 2px solid #40a0ff;
+	padding-top: 10px;
+}
+
+#makeBlClone table.particularsTable.dataTable td.goodsDesc {
+	border-left: 2px dotted #40a0ff;
+}
+
+.liabilityWrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.liabilityWrap > p {
+	margin-top: 10px;
+	line-height: 1em;
+}
+.witnessPara {
+	float: right;
+	width: 30%;
+}
+
+.liabilityTitle {
+	font-weight: bold;
+	text-align: center;
+}
+
+.blTitleText {
+	margin: 15px 0;
+}
+
+.bottomSignWrap {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.bottomSignWrap  .signItem:last-of-type{
+	margin-left: 2%;
+}
+
+.signItem {
+	width: 48%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.signItem .singleEle {
+	border: 2px solid #40a0ff;
+	padding: 10px;
+	box-sizing: border-box;
+	 text-align: center;
+	 width: 80%;
+	 margin: 0 auto;
+}
+
+
+
+.signItem  .w57,.signItem .singleEle.width65per{
+	width: 57%;
+	float: left;
+}
+
+.w57 > span {
+	width: 30%;
+}
+
+.w38> span {
+	width: 100%;
+}
+
+
+.w57 > span, .w38 > span {
+	display: inline-block;
+	margin-left: 2%;
+	text-align: center;
+}
+
+.signItem  .w38 ,.signItem .singleEle.w38{
+	width: 38%;
+	margin-left: 5%;
+	float: left;
+}
+
+.billDateWrap, .billDateHeader, .billDateBody {
+	float: left;
+	width: 100%;
+}
+
+.billDateBody,.signItem.leftSignItem   .singleEle {
+	font-weight: bold;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.signatureEle .liabilityTitle{
+	line-height: 25px;
+}
+
+.dottedEle {
+	margin-top: 10px;
+}
+
+.dottedEle {
+	border-bottom: 2px solid #40a0ff;
+    display: inline-block;
+    margin-left: 2%;
+    padding: 7px 0;
+    text-align: center;
+    width: 93%;
+}
+
+.byText	{
+	width: 5%;
+}
+
+.ui-dialog  #makeBlClone.ui-dialog-content {
+	  background-color: #ffffff;
+}
+
+#freightDataTable  {
+	border-right: 2px solid #40a0ff;
+}
+
+#freightDataTable  tfoot {
+	text-align: right;
+}
+
+#makeBlClone table#particularsTable.dataTable tr td:first-of-type {
+	border-left: 0;
+}
+
+.actionListLinkContent #massVoyageName {
+	width: 83%;
+}
+
+.actionListLinkContent #findVoyNum {
+	padding: 0 8px;
+}
+
+.actionListLinkContent .massVesName {
+	width: 66% !important;
+}
+
+.actionListLinkContent .updVslSailDate label {
+	width: 20% !important;
+}
+
+.actionListLinkContent .updVslSailDate .formInputWrap {
+	width: 70% !important;
+}
+
+#mainBoookDetailsFormContent .longCodeRowItem .threeColLabel {
+	width: 18%;
+}
+
+#mainBoookDetailsFormContent .longCodeRowItem .threeColFormInp {
+	width: 89%;
+}
+
+@media all and (max-width: 1600px) {
+	#leftSearchMenu .searchListItems #voyage {
+	    width: 75% !important;
+	}
+}
+
+#quickBookSubBookWrapDiv #quickFreightDimensionsGrid label {
+	line-height: 15px;
+}
+
+.cargoVin.billVin.singleColItem {
+    height: auto !important;
+}
+
+/* .mainBookingContentWrapper input, .mainBookingContentWrapper select, .mainBookingContentWrapper textarea {
+}*/
+
+.equalPad {
+	padding: 0 10px 0 10px !important;
+}
+.searchListItems {
+    height: 1062px;
+}
+
+#mainBoookDetailsFormContent input[type="text"] {
+    line-height: 22px;
+}
+.dragDropError{
+	background-color: #f2e7e5;
+	border-color: #ececec;
+}
+.dragDropSuccess{
+	background-color: #edf1e4;
+	border-color: #c9c9c9;
+}
+.ui-state-error{
+	background: none;
+}
+.makeModelListWrapper table.dataTable.orangeTable thead th.pad2x {
+	padding-left: 24px !important;
+}
+#mainBoookDetailsFormContent .rowItem {
+	width: 12% !important;
+	box-sizing: border-box;
+}
+
+#mainBoookDetailsFormContent .colItem .rowItem {
+	width: 58.5% !important;
+	box-sizing: border-box;
+}
+#mainBoookDetailsFormContent .colItem .rowItem.custRef {
+    width: 37.5% !important;
+}
+#mainBoookDetailsFormContent .longCodeRowItem .twoColRow .threeColFormInp {
+	width: 79%;
+}
+#mainBoookDetailsFormContent .longCodeRowItem .twoColRow .custRef label{
+	width: 33% !important;
+}
+#mainBoookDetailsFormContent .longCodeRowItem.subBookLevel .twoColRow .custRef label#mCustomerRef {
+   	width: 48% !important;
+   	margin-right: 0 !important;
+}
+#mainBoookDetailsFormContent .longCodeRowItem.subBookLevel .twoColRow .custRef label{
+	width: 50% !important;
+}
+#mainBoookDetailsFormContent .longCodeRowItem .twoColRow .custRef .threeColFormInp{
+	width: 68% !important;
+}
+#mCustomerRef.suBookLabel{
+	padding-left: 4px;
+}
+#mainBoookDetailsFormContent .rowItem.longCodeRowItem {
+	width: 43% !important;
+	box-sizing: border-box;
+}
+#mainBoookDetailsFormContent .rowItem.longCodeRowItem.portCol label {
+    width: 8% !important;
+    margin-right: 17px;
+}
+#custLabel {
+    width: 10% !important;
+    margin-right: 1px;
+}
+.colItem.bookingLinkDetails a {
+    margin-bottom: 9px !important;
+}
+#mainViewSummaryLink {
+    padding: 0 12px 0;
+}
+.compressedState #mainBoookDetailsFormContent .submitFromData {
+	width: 16%;
+}
+#mainBoookDetailsFormContent .submitFromData {
+	width: 15%;
+	float: right;
+}
+#mainBoookDetailsFormContent .subBookLevel .threeColFormInp label.suBookLabel {
+    width: auto !important;
+}
+#mainBoookDetailsFormContent .formRow .rowItem.longCodeRowItem.subBookLevel{
+	margin: -30px 3% 10px 0;
+    background-color: #ececec;
+    padding: 10px 3% 0;
+    width: 36% !important;
+}
+.subBookLevel .mainBookingDetailFormTitle {
+	height: auto;
+}
+.subBookLevel #custLabel {
+    width: 12% !important;
+}
+.subBookLevel .formInputWrap.doubleInput.threeColFormInp {
+    width: 85% !important;
+}
+.subBookLevel .colItem .contractLabel {
+	width: 22% !important;
+}
+.subBookLevel .twoColRow #mainContract {
+    width: 75%;
+    word-break: break-all;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.threeColFormRow.formRow label#mainBookDetailCustomerDesc {
+	margin-right: 0;
+}
+tr.highlightedRow {
+	background-color: #c9c9c9 !important;
+}
+.actionListLinkContent #massSailingDate{
+	width: 98.5%;
+	box-sizing: border-box;
+}
+#billTypeLabel {
+	width: 45px;
+}
+#billTypeItem .formInputWrap {
+    width: 70%;
+}
+#docOffcLabel {
+	width: 108px !important;
+    margin-right: 5px !important;
+}
+#docOffcLabel + div {
+    width: 77% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem {
+    width: 12% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem:not(:first-child) {
+    margin-left: 1% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem:nth-child(5) {
+    width: 17% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem.w20 {
+    width: 8.5% !important;
+}
+.accElement.billLadingHeaderWrapper .rowItem.w45 {
+    width: 33% !important;
+}
+.billInfoWrapper .rowItem {
+	width: 20% !important;
+}
+.billInfoWrapper .rowItem label {
+    margin-right: 5px !important;
+}
+.billInfoWrapper .rowItem:not(:first-child) {
+    margin-left: 0 !important;
+}
+.billInfoWrapper .rowItem:last-child label:not(.mFormL) {
+    width: 23%;
+}
+#phoneNoItem {
+	visibility: hidden;
+}
+
+
+@media all and (max-width: 1679px) {
+	.colItem.bookingLinkDetails a{
+		font-size: 8px;
+	}
+	.bookingLinkDetails .getPossibleVoyages{
+		height: auto !important;
+	}
+}
+
+@media all and (max-width: 1680px) {
+	#billLadingCommentGrid .w10per {
+	    width: 13%;
+	}
+	.billLadingPartyContentWrapper .formRow .rowItem:first-of-type {
+	    width: 38%;
+	}
+	.billLadingPartyContentWrapper .formRow label.threeColLabel {
+    	width: 28%;
+    }
+    .billLadingPartyContentWrapper .formRow .rowItem:nth-child(3) label {
+	    width: 23% !important;
+	}
+	#addNewCommentHist {
+		margin-left: 4% !important;
+	}
+	#addPartyB {
+    	margin-left: 6% !important;
+    }
+	.billInfoWrapper .rowItem {
+	    width: 28% !important;
+	}
+	#billTypeItem {
+	    width: 19% !important;
+	}
+	#billStatusItem label {
+		width: 25% !important;
+	}
+	#billStatusItem .formInputWrap {
+		width: 70% !important;
+	}
+	.accElement.billLadingHeaderWrapper .rowItem.w45 {
+	    width: 29% !important;
+	}
+	#docOffcLabel {
+	    width: 23% !important;
+	}
+	#docOffcLabel + div {
+	    width: 71% !important;
+	}
+	.accElement.billLadingHeaderWrapper .rowItem.printBill {
+		margin-left: 0 !important;
+    	width: 12% !important;
+	}
+	#viewPrintSettingsLink {
+		font-size: 9px;
+    	padding: 0 2px;
+	}
+	.subBookLevel #custLabel {
+	    width: 16% !important;
+	}
+	.subBookLevel .twoColRow #mainContract {
+	    width: 62% !important;
+	}
+	.subBookLevel .formInputWrap.doubleInput.threeColFormInp {
+	    width: 82% !important;
+	}
+	.subBookLevel .colItem .contractLabel {
+	    width: 28% !important;
+	}
+	.suBookLabel {
+	    margin-right: 3% !important;
+	}
+	.rowItem.custRef {
+	    margin: 0 !important;
+	}
+	#mainBoookDetailsFormContent .longCodeRowItem.subBookLevel .twoColRow .custRef label#mCustomerRef {
+    	width: 38% !important;
+	}
+	#mainBoookDetailsFormContent .longCodeRowItem.subBookLevel .twoColRow .custRef label {
+	    width: 60% !important;
+	}
+	.rowItem.longCodeRowItem.portCol {
+	  margin-left: 0 !important;
+	}
+	#mainBoookDetailsFormContent .rowItem.longCodeRowItem.portCol label {
+	    width: 13% !important;
+	    margin-right: 2px;
+	}
+	#mainBoookDetailsFormContent .longCodeRowItem .threeColFormInp {
+	    width: 86%;
+	}
+	#mainBoookDetailsFormContent .longCodeRowItem .twoColRow .threeColFormInp {
+	    width: 70%;
+	}
+	#mainBoookDetailsFormContent .longCodeRowItem .threeColLabel {
+	    width: 22%;
+	}
+	#custLabel {
+    	width: 12% !important;
+	}
+	#mainBoookDetailsFormContent .longCodeRowItem .twoColRow .custRef label {
+	    width: 39% !important;
+	    margin-right: 2px;
+	}
+	#mainBoookDetailsFormContent .longCodeRowItem .twoColRow .custRef .threeColFormInp {
+	    width: 58% !important;
+	}
+	#mainBoookDetailsFormContent .colItem .rowItem.custRef {
+    width: 40.5% !important;
+	}
+	#mainBoookDetailsFormContent .submitFromData {
+    	width: 24.5%;
+	}
+	.colItem.bookingLinkDetails a {
+	    font-size: 11px;
+	    padding: 0 5% !important;
+	}
+	#possVoyages, #possVoyagesHide {
+		padding: 0 8.2% !important;
+	}
+	#mainBoookDetailsFormContent .rowItem {
+		width: 13% !important;
+	}
+}

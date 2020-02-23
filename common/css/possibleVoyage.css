@@ -1,0 +1,203 @@
+#possibleVoyagesGrid td.alignRight.backGroundShade, #possibleVoyagesGrid th.alignRight.backGroundShade {
+	background: rgba(236, 236, 236, 0.3);
+}
+#possibleVoyagePopup{
+	padding: 0 15px;
+	font-family: Arial, Helvetica, sans-serif!important;
+}
+.possibeVoyageTitleWrap {
+	width: 100%;
+	float: left;
+	clear: left;
+}
+.possibleVoyagesForm{
+	margin-top: 50px;
+}
+.possibleVoyages {
+	width: 1000px;
+    height: 85px;
+    background-color: #f0f0f0;
+    border: 1px solid #e0e0e0;
+   	padding: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.spossibleVoyages {
+    width: 480px;
+    height: 106px;
+    background-color: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    float: right;
+    margin-right: 13px;
+    display: none;
+}
+@media (min-width: 1920px){
+	.spossibleVoyages {
+	 margin-right: 451px;
+	}
+}
+.possibleVoyages div, .possibleVoyages span,  .spossibleVoyages div, .spossibleVoyages span{
+	margin-bottom: 20px;
+}
+
+.popupclose {
+    font-size: 16px;
+    float: right;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.popUpTitle {
+	display: inline-block;
+	margin-top: 20px;
+}
+.ui-widget-content {
+    margin-top: 2px;
+    margin-right: 0;
+}
+.pvTabA {
+	display: inline-flex;
+	font-size: 11px;
+	float: left;
+	width: 60%;
+}
+.pvTabA .pvColA {
+	font-weight: bold;
+}
+.pvTabA .pvColB {
+	margin-left: 10px;
+	font-weight: normal;
+}
+.pvTabB {
+	float: left;
+	display: inline-flex;
+	margin-left: 20px;
+	font-size: 11px;
+}
+.pvTabC {
+	display: inline-flex;
+	margin-right: 210px;
+	font-size: 11px;
+}
+.pvTabB .pvColA, .pvTabC .pvColA {
+	font-weight: bold;
+}
+.pvTabB .pvColB, .pvTabC .pvColB {
+	margin-left: 10px;
+	font-weight: normal;
+}
+.pvTabB .pvColC, .pvTabC .pvColC {
+	margin-left: 60px;
+	font-weight: normal;
+}
+.possibleVoyagesData {
+	padding-top: 32px;
+}
+.pvColB .dataCustomer{
+	width: 480px;
+}
+.showPrevVoyages{
+	margin-left: 60px;
+	margin-right: 6px;
+	top: 2px;
+}
+.possibleVoyagesGridWrap {
+	padding-top: 32px;
+}
+.btnContainer{
+	margin-right: 25px;
+	margin-top: 30px;
+	float: right;
+}
+#possibleVoyagePopup .btnContainer{
+	margin-right: 0 !important;
+}
+table#possibleVoyageGrid {
+	margin-left: 0!important;
+	width: 97%;
+}
+table#possibleVoyageGrid thead th.sorting:after, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after{
+	display: none;
+}
+.alignCenter{
+	text-align: center;
+}
+.alignRight{
+	text-align: right;
+}
+.alignLeft{
+	text-align: left;
+}
+th.alignVesselVoyage{
+   text-align: center;
+}
+td.alignVesselVoyage{
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	text-align: right;
+}
+.alignVesselVoyageSpan{
+    float: left;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+ }
+.vesselSpan{
+	float: left;
+}
+table#possibleVoyagesGrid th {
+     padding-left: 0!important;
+     padding-right: 0!important;
+}
+table#possibleVoyagesGrid thead th, table#possibleVoyageGrid thead td {
+	padding: 10px;
+}
+.selRow{
+	background-color: #e0e0e0;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+#possibleVoyagePopup #okBtn{
+	width: 100px;
+}
+table#possibleVoyagesGrid .superText{
+	position: relative;
+}
+table#possibleVoyagesGrid th:last-child,table#possibleVoyagesGrid td:last-child {
+   padding-right: 6px !important;
+    box-sizing: border-box;
+}
+
+.ui-autocomplete.ui-front{
+	/*position: fixed !important; */
+	z-index: 650 !important;
+}
+#documentationIssueManifestForm #vesselName ~ul{
+	    max-height: 120px;
+}
+form#documentationIssueManifestForm #voyageNo {
+    text-align: right;
+}
+#possibleVoyagesGrid th.alignRight.backGroundShade {
+    border-top: 20px solid rgba(236, 236, 236, 0.3);
+}
+#possibleVoyagesGrid tr:last-child td.alignRight.backGroundShade {
+    border-bottom: 40px solid rgba(236, 236, 236, 0.3);
+    box-sizing: border-box;
+}
+#possibleVoyagesGrid th.alignRight.backGroundShade:nth-child(12), #possibleVoyagesGrid td.alignRight.backGroundShade:nth-child(12) {
+    padding-right: 23px !important;
+    box-sizing: border-box;
+}
+#possibleVoyagesGrid th.alignRight.backGroundShade:nth-child(9), #possibleVoyagesGrid td.alignRight.backGroundShade:nth-child(9) {
+    padding-left: 15px !important;
+    box-sizing: border-box;
+}

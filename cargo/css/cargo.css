@@ -1,0 +1,901 @@
+th, td {
+	white-space: nowrap;
+}
+
+.mainSection {
+	min-height: 840px;
+	width: 100%;
+}
+
+.mainSection .pageTitle h1{
+	display: inline;
+}
+.mainSection .pageTitle .statusMessageText{
+	display: inline !important;
+	margin-left: 40%;
+}
+#emailLink {
+	margin-right: 0 !important;
+}
+#newCargoForm .doubleInput .width65per {
+	width: 74%;
+}
+#cargoMgmtGrid div.cargoMgmtGridWrapper {
+	width: 100%;
+	display: inline-block;
+	clear: none;
+}
+
+#emailPopup .formTextarea {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#actionListAccordion .rowItem.width100per .formInputWrap.datePickerInpWrap {
+	width: 100%;
+}
+
+#actionListAccordion .rowItem.width100per .formInputWrap.datePickerInpWrap .datePickerInp {
+	height: 30px;
+}
+
+#cargoMgmtGrid {
+	display: none;
+}
+
+.exportButtons.compressedState {
+	float: left;
+	margin-left: 16.5%;
+	width: 82.5%;
+	min-height: 40px;
+	position: relative;
+}
+
+.cargoMgmtGridContentWrapper.expandState,
+.exportButtons.expandState {
+	width: 100%;
+	margin-left: 0;
+	float: left;
+}
+
+.cargoMgmtGridContentWrapper.compressedState {
+    float: right;
+    height: 740px;
+    margin-top: 5px;
+    width: 83.5%;
+}
+
+.cargoMgmtGridContentWrapper.expandState {
+	width: 100%;
+	margin-left: 0;
+	float: left;
+}
+
+.cargoMgmtGridContentWrapper.expandState {
+	border: 1px solid #bbb;
+	height: 830px;
+	margin-top: 5px;
+}
+
+#cargoMgmtGridWrapper.cargoMgmtGridWrapper {
+	clear: none;
+}
+
+.cargoMgmtGridContentWrapper .dataTables_paginate {
+	margin-top: 29px;
+}
+
+.filterDiv .resetIcon {
+	left: 1px;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+}
+
+.filterDiv {
+	position: relative;
+}
+
+
+.filterLnk {
+	position: absolute;
+	right: 10px;
+}
+
+.leftSearchMenu {
+	width: 15%;
+	float: left;
+	position: absolute;
+	top: 35px;
+}
+
+.leftSearchMenuHeader {
+	width: 15%;
+	float: left;
+}
+
+.showHideSearch{
+	cursor: pointer;
+}
+
+
+.leftSearchMenuContent ul,
+.cargoMgmtRightData {
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+
+.greyBigIconWrap {
+	background: linear-gradient(to top, #9ca2a6, #f2f6f8) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #c4ccd2;
+	display: inline-block;
+	height: 44px;
+	left: 0;
+	position: absolute;
+	width: 44px;
+}
+
+.greyBigIconWrap .icons_sprite {
+	margin: 8px;
+}
+
+.searchBy {
+	margin-top: 5px;
+	padding-left: 1em;
+}
+
+.leftSearchMenuContent li {
+	float: left;
+	margin-top: 5px;
+	padding-right: 2%;
+	position: relative;
+	width: 98%;
+}
+
+.searchMenuItemWrap {
+	display: block;
+	margin-left: 0;
+}
+
+.searchMenuItemWrap label {
+	display: inline-block;
+	line-height: 18px;
+}
+
+.voyageIcon {
+	background-position: -237px -156px;
+}
+
+.vesselIcon {
+	background-position: -237px -84px;
+}
+
+.customerIcon {
+	background-position: -196px -157px;
+}
+
+.loadPortIcon {
+	background-position: -199px -119px;
+}
+
+.dischargePortIcon {
+	background-position: -199px -84px;
+}
+
+.destinationIcon {
+	background-position: -200px -51px;
+}
+
+.bookingNumberIcon {
+	background-position: -54px -156px;
+}
+.searchMenuItemWrap .icons_sprite {
+    top: 5px;
+    position: relative;
+}
+
+.cargoStatusIcon {
+	background-position: -421px -123px;
+}
+.cargoTypeIcon {
+	background-position: -420px -154px;
+}
+.cargoStateIcon {
+	background-position: -235px -51px;
+}
+.vinNumIcon {
+	background-position: -235px -121px;
+}
+
+.blNumIcon {
+	background-position: -196px -220px;
+}
+
+.searchIcon {
+	background-position: -130px -261px;
+}
+
+.rightArrowIcon {
+	background-position: -55px -260px;
+}
+
+.leftArrowIcon {
+	background-position: -19px -260px;
+	left: -12px;
+	position: absolute;
+	top: 196px;
+}
+
+.cargoDetailsIcon {
+	background-position: -199px -223px;
+	float: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.cargoVin {
+	padding: 0 40px 0 10px;
+	position: relative;
+	height: 22px;
+}
+
+.findCargo {
+	display: none;
+}
+
+.findCargo, .newSearch {
+	line-height: 28px;
+	margin-left: 0;
+}
+
+.newSearch .searchIcon,
+.rightArrowIcon {
+	vertical-align: middle;
+	margin-left: 0.5em;
+}
+
+.searchedForWrap {
+	background-color: #f0f0f0;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0 0.5%;
+	width: 84.2%;
+	margin-left: 0.8%;
+	min-height: 20px;
+	    margin-top: 8px;
+}
+
+.selectedSearchDesc {
+	float: left;
+	margin: 9px 0;
+}
+
+.leftSearchSubmit {
+	margin: 0;
+}
+
+.searchResultsWrap {
+	margin: 5px 0;
+	display: inline-block;
+}
+
+.searchedItem {
+	display: inline-block;
+	padding: 0 35px 0 10px;
+}
+
+.normalAccContentWrap .optionItem .smallRemoveIcon {
+	display: none;
+}
+
+.searchedItem span {
+	line-height: 18px;
+}
+
+.searchedItemValue {
+	font-weight: normal;
+}
+.rightActionListWrapper {
+    top: -70px;
+}
+.topMenu {
+	position: relative;
+	z-index: 1;
+    padding: 0 15px;
+}
+
+.exportButtons.m_t10_b5 {
+	margin: 10px 0 5px 0 !important;
+}
+
+.buttonsList {
+	margin-top: 20px;
+}
+
+.pageTitle {
+	line-height: 22px;
+}
+
+/* Right Action List Styles Begin */
+
+.optionVal.clickedOption {
+	cursor: default;
+}
+
+.blueAccordion .controlNumWrap input[type="text"].actionListInput,
+.actionListInput{
+	display: none;
+}
+
+.rightActionListWrapper {
+	min-width: 5px;
+}
+
+.cargoMgmtGridContentWrapper.compressedState .actionListWrapStyles.rightActionListWrapper {
+	width: 25%;
+	max-width: 25%;
+}
+
+.actionListWrapStyles.width25per {
+	width: 25%;
+}
+
+.actionListContent {
+	display: none;
+}
+
+.relativeWrap {
+	position: relative;
+}
+
+.rotate270 {
+	transform: rotate(270deg);
+}
+
+.blueAccordion .blueAccElement {
+	float: left;
+	width: 100%;
+}
+
+.blueAccordion .blueHeader.notExpandable {
+	cursor: default;
+}
+
+.blueHeader .smallBottomArrowIcon {
+	background-position: -57px -192px;
+	height: 12px;
+	margin-top: 10px;
+	width: 12px;
+	float: right;
+}
+
+.blueAccordion .normalAccContentWrap {
+	border: 1px solid #9ca3a7;
+	background: none repeat scroll 0 0 #ffffff;
+	padding: 0 1em 5px;
+	display: none;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.blueAccordion .normalAccContentWrap.cargoCondnTextArea {
+	padding: 0;
+}
+
+.blueAccordion .normalAccContentWrap.notCollapsable {
+	display: block;
+}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	left: auto;
+	margin-top: -8px;
+	position: absolute;
+	top: 50%;
+	right: 0.5em;
+	width: 0;
+	height: 0;
+}
+
+.blueAccordion .normalAccContentWrap li.optionItem {
+	margin-top: 10px;
+}
+
+.blueAccordion .controlNumWrap input[type="text"] {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 22px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+.cargoMgmtGridContentWrapper {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.blueAccordion .formRow {
+	font-weight: bold;
+}
+
+.blueAccordion .formRow .rowItem {
+	width: 100%;
+}
+
+.dimensionWrap .formRow {
+	margin-top: 10px;
+}
+
+.blueAccordion .datePickerInpWrap.formInputWrap input[type="text"] {
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+}
+
+.blueAccordion .rowItem.datePickerCell {
+	box-sizing: border-box;
+	padding: 0 40px 0 0;
+	position: relative;
+}
+
+.blueAccordion .datePickerIconWrap {
+	position: absolute;
+	right: 10px;
+}
+
+.resetSearch {
+	margin-right: 4px;
+	float: right;
+	    width: 40px;
+}
+
+.blueAccordion .datePickerIconWrap .datePickerIcon {
+	cursor: pointer;
+	float: right;
+	margin-top: 3px;
+}
+
+.savePreference {
+	display: block;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.actionItems {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* Right Action List Styles End */
+
+/* Popover Styles Begin*/
+.toolTipContent.headerGreyBanner,
+.toolTipList tbody tr td {
+	padding-left: 15px;
+}
+
+.toolTipList tbody tr td:nth-child(2) {
+	padding-right: 20px;
+}
+
+.toolTipContent.headerGreyBanner h1 {
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.toolTipContent.headerGreyBanner {
+	height: 24px;
+	padding: 0 4em 0 16px;
+	border-radius: 0;
+	background: #fff;
+}
+
+table.toolTipList {
+	width: auto !important;
+}
+
+.toolTipList tr {
+	height: 25px;
+	padding-left: 20px;
+}
+
+.toolTipList span {
+	float: left;
+	line-height: 32px;
+	width: 50%;
+}
+
+
+.toolTipList tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+.blurredIcon {
+	opacity: 0.5;
+}
+
+.blurredIcon.cargoDetailsIcon {
+	cursor: default;
+}
+
+.newCargo,
+.optionVal {
+	cursor: pointer;
+}
+
+/* Popover Styles End*/
+
+/* Popup Styles Begin */
+.ui-dialog #newCargoDetailsPopup.ui-dialog-content {
+	padding: 0.5em 1em 1.5em;
+}
+
+.modalPopup {
+	display: none;
+}
+
+.bookedDimensions {
+	background-color: #f0f0f0;
+	border: 1px solid #ececec;
+	clear: left;
+	float: left;
+	padding: 5px 2% 10px;
+	width: 90%;
+	margin-left: 1%;
+	margin-bottom: 10px;
+}
+
+.bookedDimensions .areaCalculation li.rowItem {
+	margin-left: 3%;
+	width: 14%;
+}
+
+.formRow div.width33per.rowItem:first-child {
+	margin-left: 0;
+}
+
+.formRow div.width33per.rowItem {
+	margin-left: 5%;
+}
+
+.rowItem.width33per {
+	width: 30%;
+}
+
+.formRow .width33per.rowItem label {
+	margin-right: 10%;
+	width: 25%;
+}
+.areaCalculation li.rowItem label{
+	margin-bottom: 0;
+}
+
+.areaCalculation .resetButton {
+	cursor: pointer;
+	padding: 3px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.calculationValue {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.popUpTitle {
+	margin-top: 15px;
+	margin-left: 1%;
+}
+
+#cargoCondition {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.cargoMgmtRightData .buttonsList {
+	display: none;
+}
+
+.formRow .sz select {
+	padding: 1%;
+	height: 24px;
+}
+
+.m_l_2p {
+	margin-left: 2%;
+}
+
+.formInputWrap.doubleInput .width50per {
+	width: 49%;
+}
+
+.formInputWrap.doubleInput .width35per {
+	width: 35% !important;
+}
+
+.formInputWrap.doubleInput .w62 {
+	width: 62% !important;
+	margin-left: 3%;
+}
+
+.exportBtn {
+	display: none;
+}
+
+.blueAccElement .formInputWrap input[type="text"],
+.blueAccElement .formInputWrap select {
+	height: 22px;
+}
+
+.formRow .radioItem input[type="checkbox"] {
+	height: auto;
+}
+
+.formRow .radioItem label {
+	padding-top: 1%;
+}
+
+.cargoCheckBox {
+	vertical-align: text-bottom;
+	float: left;
+}
+
+.cargoLabel {
+	margin-left: 1%;
+	vertical-align: top;
+	position: relative;
+	margin-top: -9px;
+}
+
+.submitFromData.popupSubmitForm {
+	padding-top: 0 !important;
+}
+
+/* Popup Styles End */
+
+.cargoCondnTextArea textarea {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.selectedSearchDesc {
+	float: left;
+	margin: 4px 0;
+	font-weight: normal;
+}
+
+.defaultSearchMsg {
+	position: relative;
+	top: 25%;
+	text-align: center;
+}
+
+.defaultSearchMsg p.first {
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.defaultSearchMsg p.second {
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.formInputWrap.datePickerInpWrap input[type="text"].datePickerInp {
+	line-height: 20px;
+}
+
+.datePickerIconWrap .datePickerIcon {
+	cursor: pointer;
+	float: right;
+	margin-top: 3px;
+}
+
+.datePickerCell .datePickerIconWrap {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+}
+
+table.dataTable tbody tr td.datePickerCell {
+	padding: 0 40px 0 10px;
+	position: relative;
+}
+
+.statusMessageTextdata {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.DTTT_container {
+	display: none;
+	position: relative;
+	margin-left: 10px;
+}
+
+.DTTT_container a.exportExcelLnk {
+	margin-left: 0;
+}
+
+.ui-autocomplete,
+.ui-autocomplete.ui-front {
+	white-space: nowrap;
+}
+
+.formInputWrap.doubleInput.width100per .width33per {
+	width: 33%;
+}
+
+.formInputWrap.doubleInput.width100per .w66 {
+	width: 66%;
+}
+
+.marginLeft1px {
+	margin-left: 1%;
+}
+
+#cargoMgmtGridWrapper table th .filterDiv {
+	padding: 6px 2px 6px 2px !important;
+}
+
+#cargoMgmtGridWrapper table th .filterDiv.filterIconDiv {
+	padding: 6px 30px 6px 2px !important;
+}
+
+#cargoMgmtGridWrapper table th .filterDiv.datePickrFilterWrap .ui-datepicker-trigger,
+#cargoMgmtGridWrapper table th .filterDiv.datePickrFilterWrap .datePickerIcon {
+	right: 4px;
+}
+
+.checkBoxCell {
+	text-align: center;
+	padding-right: 10px!important;
+}
+
+#new_cargo_form .formRow label {
+	line-height: 30px;
+}
+
+.leftSearchMenuContent{
+	display: none;
+}
+
+.leftSearchMenuContent input[type="text"], .leftSearchMenuContent select {
+    width: 100%;
+}
+
+#cargoSearchSubmit{
+	width: 71%;
+    text-align: left;
+    padding-left: 10px;
+    float: left;
+}
+#bookingEmailDetails .formInputWrap {
+    width: 80%;
+}
+#bookingEmailDetails .formInputWrap input {
+    width: 100%;
+}
+
+
+
+@media all and (max-width: 1600px) {
+	#cargoSearchSubmit{
+	width: 60%;
+	}
+}
+
+.width35per .filterDiv{
+	height: 24px;
+	padding: 5px 0 0 0 !important;
+}
+.fa-circle{
+	width: 19px;
+}
+.number{
+	text-align: right;
+	width: 95%;
+}
+.orangeGradientBackground{
+	padding: 12px 0 0;
+}
+.bookedDimensions i.fa.fa-eraser{
+	padding: 0;
+}
+#newCargoForm .width97per{
+	width: 97%;
+}
+#newCargoForm select.width99per, #newCargoForm .datePickerInp.width97per {
+    width: 100%;
+}
+#newCargoForm .width99per{
+	width: 98%;
+}
+
+#newCargoForm .titleHdr{
+	margin-top: 10px;
+	margin-left: 1%;
+	font-weight: bold;
+	font-size: 14px;
+}
+#newCargoCondition{
+	width: 92.5%;
+	height: 22px;
+}
+.bookedDimensions .metrics .rowItem{
+	margin-left: 0;
+}
+.formRow div.rowItem:nth-child(2){
+	margin-left: 4.6%;
+}
+#newCargoForm .ui-dialog label{
+	padding-top: 4px;
+	line-height: normal;
+}
+#newCargoForm .formRow .radioItem label.cargoLabel{
+	margin-right: 6.5%;
+}
+
+.searchMenuItemWrap .icons_sprite{
+	display: none;
+}
+.alignRight{
+	text-align: right;
+}
+table.dataTable thead th, table.dataTable thead td{
+	padding: 8px 10px;
+}
+body .filterDiv.datePickrFilterWrap{
+	padding-left: 0;
+	padding-top: 0;
+}
+body .filterDiv.datePickrFilterWrap{
+	padding: 0;
+}
+.cargoMgmtGridContentWrapper .blueAccordion h3.blueHeader{
+	    width: auto;
+	        padding: 0 1em 5px;
+}
+.cargoMgmtGridContentWrapper #actionListApply{
+    margin: 5px 0;
+}
+.leftSearchSubmit{
+	text-align: center;
+}
+#cargoSearchSubmit .leftSearchSubmit{
+	text-align: left !important;
+}
+#newCargo{
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+.cargoMgmtGridContentWrapper table.dataTable thead th.sorting:after,
+.cargoMgmtGridContentWrapper table.dataTable thead th.sorting_asc:after,
+.cargoMgmtGridContentWrapper table.dataTable thead th.sorting_desc:after {
+    right: 10px !important;
+}
+.overflownone{
+	text-overflow: initial;
+}
+
+
+@media all and (min-width: 1600px) {
+	#newCargoForm .width99per{
+		width: 98.5%;
+	}
+	#newCargoDocRecipt {
+		width: 98.7%;
+	}
+	#newCargoOnHold {
+		margin-left: 4px;
+	}
+}

@@ -1,0 +1,123 @@
+.formInputWrap.doubleInput.doubleComboInput .width65per{
+    margin-left: 0;
+}
+
+.formInputWrap.doubleInput select{
+    float: left;
+    box-sizing: border-box;
+    padding: 1% 0;
+}
+
+.formInputWrap.doubleInput.doubleComboInput .width25per{
+    margin-left: 3%;
+}
+
+
+.formInputWrap textarea {
+	width: 92%;
+ 	line-height: 25px;
+ 	resize: none;
+ 	overflow-y: auto;
+}
+
+.floatNone {
+	float: none !important;
+}
+#contractFormRow {
+  margin-top: 0 !important;
+}
+.rateBreak  {
+  border-top: 1px dashed rgb(154, 154, 154);
+  width: 100%;
+  margin-top: 2%;
+  border-bottom: none !important;
+}
+
+h1.measurementTitle {
+  font-weight: bold;
+  font-size: 11px !important;
+}
+
+
+.datePickerInpWrap.filterDiv input[type =
+"text"] {
+    box-sizing: border-box;
+    float: left;
+    width: auto;
+}
+
+.datePickerCell .datePickerInpWrap.filterDiv input[type =
+"text"] {
+    width: 100%;
+}
+
+.datePickerIconWrap {
+    display: none;
+    width: 9%;
+}
+
+.datePickerIconWrap .datePickerIcon {
+    float: right;
+   	margin-right: 1px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.datePickerCell .datePickerIconWrap {
+    position: absolute;
+    right: 10px;
+	top: 2px;
+}
+body table.orangeTable.dataTable .filterBox {
+  width: auto !important;
+}
+.buttonsList .duplicateIcon, .duplicateIcon   {
+  background-position: -130px -20px;
+}
+.comboButton:hover .duplicateIcon, .whiteDuplicateIcon,  .lightGreyGradient:hover .duplicateIcon {
+  background-position: -130px -55px;
+}
+
+.redBold {
+	font-weight: bold;
+}
+.floatNone {
+  float: none !important;
+}
+
+.marginLeft0per {
+	margin-left: 0 !important;
+	width: 43% !important;
+	padding: 0 !important;
+}
+
+.doubleComboInput.doubleInput.formInputWrap #rate{
+	width: 53% !important;
+}
+
+.formInputWrap input[type="text"], .formInputWrap select, .formInputWrap textarea {
+    width: 99%;
+}
+.formRow label {
+	width: 30%;
+}
+
+table {
+	table-layout: inherit;
+}
+.buttonsList span > a {
+    margin-right: 0 !important;
+}
+.rightTextField{
+	display: block;
+	width: 92%;
+	text-align: right;
+}
+td.fromDateClass, td.toDateClass{
+	width: 50%;
+	text-align: right;
+	padding-right: 58px !important;
+}
+#createRateForm .datePickerInp{
+	    width: 99%;
+}

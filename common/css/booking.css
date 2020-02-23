@@ -1,0 +1,649 @@
+/* Main Booking List Styles Begin */
+.mainBookingListWrap {
+    width: 100%;
+    float: left;
+    font-size: 11px;
+}
+.dummySpace{
+	/* width: 14%; */
+    float: left;
+}
+.minusIcon {
+background-position: -504px -332px;
+width: 15px;
+height: 5px;
+float: left;
+}
+#updateVesselVoyagePopup .subBookListColWrap,#massActionWarningPopUp .subBookListColWrap { height: auto;}
+.disabledBut, .linkButton.disabledLink{
+	 background: #a1b0c0 no-repeat;
+	 border: 1px solid #a1b0c0;
+	 cursor: default !important;
+	 pointer-events: none !important;
+}
+.dimButton {
+    padding: 5px 0.5em 5px !important;
+}
+.smallRowItem{
+	width: 18.4% !important;
+}
+.bookingGridContentWrapper.compressedState .mainBookingListWrap {
+    width: 14%;
+}
+.bookingGridContentWrapper.compressedState .mainBookingListWrap.makeBLListWrap {
+   width: 29%;
+}
+.mainBookingListWrap .subBookListColWrap {
+    margin: 0;
+ 	width: 100%;
+    overflow-x: hidden;
+}
+.compressedState .mainBookingContentWrapper {
+	width: 98%;
+}
+.mainBookingContentWrapper {
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    float: right;
+    margin-left: 0.5%;
+    padding: 10px 36px 10px 0.5%;
+    width: 84%;
+}
+
+.mainBookingDetailsWrap {
+    width: 100%;
+    float: left;
+    clear: left;
+    padding: 5px 0 0 0;
+    background-color: #ffffff;
+    border-radius: 4px;
+    /* margin-bottom: 10px; */
+   	/* max-height: 220px; */
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+#createFreshBook .submitFromData {
+	height: auto;
+}
+.manifestItem{
+	float: left;
+}
+.mainSubBookingListWrap {
+    width: 23%;
+    float: left;
+   /* max-height: 625px;*/
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.bookingListHeading {
+    font-weight: normal;
+    width: 50%;
+    padding: 0;
+    display: inline-block;
+}
+.filterAlign {
+  top: 110px;
+}
+
+.bookingListHeading input[type =
+"checkbox"] {
+    margin-right: 0.5em;
+}
+
+.mainBookingDetailsWrap .exportButtons .mainBookingDetailFormTitle {
+    display: inline-block;
+    height: 36px;
+    line-height: 35px;
+    vertical-align: baseline;
+    width: 40%;
+    margin-left: 0;
+}
+
+.mainBookingDetailsWrap .exportButtons .buttonsList {
+    margin-top: 0;
+}
+
+/* Main Booking List Styles End */
+/* Main Booking Detail Styles Start */
+
+
+.fourColFormRow.formRow .rowItem, .fourColFormRow.formRow div.rowItem:nth-child(2) {
+	width: 23%;
+	margin-left: 2%;
+}
+
+.fourColFormRow.formRow label {
+    margin-right: 5%;
+    width: 30%;
+}
+
+.fourColFormRow.formRow .rowItem1 label {
+    margin-right: 1%;
+    width: 25.4%;
+}
+.formInputWrapNewCargo input[type="checkbox"]{
+	height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.mainBookingListWrap .billVin.singleColItem, .mainSubBookingListWrap .billVin.singleColItem {
+    box-sizing: border-box;
+	padding-right: 30px;
+    width: 100%;
+	position: relative;
+	cursor: pointer;
+	font-weight: normal!important;
+}
+
+/* .mainBookingListWrap .singleColItem {
+    padding-right: 50px;
+} */
+.mainSubBookingListWrap .singleColItem {
+	padding-right: 75px;
+}
+
+.mainSubBookingListWrap .mainBookingItemIcons {
+ 	top: 1px;
+	float: none;
+}
+
+.mainSubBookingListWrap .singleColItem .documentationIcon {
+    top: 0;
+	position: static;
+	right: auto;
+}
+
+.mainBookingListWrap .singleColItem .documentationIcon {
+	top: -1px;
+	float: left;
+}
+
+.darkGreyBoldText {
+	margin: 3px 0;
+	font-weight: bold;
+}
+
+#routeDetailGrid div.dataTables_wrapper {
+	width: 100%;
+	display: inline-block;
+	clear: none;
+}
+
+.mainBookingListWrap .singleColItem .icons_sprite, .mainSubBookingListWrap .singleColItem .icons_sprite{
+	margin-left: 5px;
+}
+
+.rowItem {
+	float: left;
+	display: table;
+}
+
+.formRow label {
+    /*display: table-cell;
+    float: none;*/
+    line-height: normal;
+    vertical-align: middle;
+	padding-top: 4px;
+}
+
+.formRow .formInputWrap.doubleInput.radioItem label {
+  padding-top: 0;
+  /* line-height: 15px; */
+}
+#mainBookingDimensionsGrid .formRow  .formInputWrap.doubleInput.radioItem label {
+	line-height: 15px;
+}
+#mainBookingDimensionsGrid .formRow  .formInputWrap.doubleInput.radioItem input[type="radio"] {
+	vertical-align: middle;
+}
+.bookingCheckBox {
+    vertical-align: text-bottom;
+}
+.bookingCheckBoxSubLink{
+	vertical-align: middle !important;
+	line-height: normal !important;
+}
+.shippedOnboard{
+	vertical-align: middle !important;
+}
+.formRow {
+	line-height: normal;
+}
+
+.formRow label.threeColLabel {
+  width: 20%;
+  margin-right: 8.5%;
+}
+.formInputWrap.threeColFormInp {
+  width: 70%;
+}
+
+.searchMenuItemWrap .formInputWrap {
+    width: 100%;
+}
+
+.mainSubBookingFormWrap {
+  background-color: #ffffff;
+  /* border: 1px solid #92999d; */
+  box-sizing: border-box;
+  float: left;
+  height: auto !important;
+  /* margin-left: 0.5%; */
+  width: 100%;
+  /* padding: 10px 0.5%; */
+  border-radius: 0;
+  overflow-y: auto;
+}
+
+.greyIconBg {
+	background-color: #333333;
+}
+
+.greenIconBg {
+	background-color: #1ed026;
+}
+
+
+.mainBookingDetailFormTitle {
+    display: inline-block;
+    width: 45%;
+    height: 31px;
+    margin: 0;
+}
+
+/* .mainBookingDetailFormTitle.subBookLevel {
+    display: inline-block;
+    width: 39.3%;
+    height: 31px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+} */
+
+table.dataTable tbody td {
+	 padding: 0 2px;
+}
+.routeDetailsWrapper {
+  float: left;
+  margin-top: 7px;
+}
+
+#quickBookPopup .mainBookDetailTitleWrap {
+  margin: 15px 0 5px;
+}
+.mainBookDetailTitleWrap {
+	width: 100%;
+	clear: left;
+
+}
+.mainBookDetailIconWrap {
+  width: 5%;
+  margin-left: 5%;
+  float: left;
+}
+.mainBookingDetailsWrap, .mainSubBookingListWrap, .mainSubBookingFormWrap, .mainBookingListWrap .subBookingNbrsHdr {
+	display: none;
+}
+
+.leftFilterMenuWrapper {
+	background-color: #c4c9cd;
+    border: 1px solid #92999d;
+    border-radius: 4px;
+	width: 100%;
+	padding: 10px 2%;
+	box-sizing: border-box;
+	display: none;
+	float: left;
+	margin-top: 10px;
+	height: 500px;
+	max-height: 700px;
+	overflow-y: auto;
+}
+
+.filterItemHeader {
+	background: none repeat scroll 0 0 #446181;
+    border-radius: 4px 4px 0 0;
+	padding: 0 3%;
+    width: 94%;
+	border: medium none;
+    height: 30px;
+    line-height: 30px;
+	cursor: pointer;
+}
+
+.filterItemContent {
+	background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+    box-sizing: border-box;
+    float: left;
+   /* height: auto;*/
+    padding: 10px 3%;
+    width: 100%;
+}
+.singleFilterItemsWrap li{
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.filterItemContent .bookingListHeading {
+	padding: 0;
+}
+
+.filterItemContent .bookingListHeading {
+	margin: 0;
+}
+
+.viewResultsText {
+	margin: 5px 0 5px;
+	position: relative;
+}
+
+
+.singleFilterContentWrap {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.filterMenuContentWrapper {
+	max-height: 435px;
+	height: 435px;
+   /* overflow-y: auto;*/
+}
+.mainBookingListWrap .subBookContentListCol {
+	padding: 0;
+ /*  margin-top: 30px; */
+ /* height: 505px;
+  min-height: 505px;*/
+}
+.mainSubBookingListWrap .subBookContentListCol {
+  padding: 0;
+  margin-top: 7px;
+}
+
+#closeFilterResults {
+	float: right;
+}
+body .mandatoryRedText {
+	margin: 0;
+}
+
+.treeListLabel {
+	font-weight: bold;
+}
+
+#closeSearchMenu {
+	cursor: pointer;
+	display: none;
+}
+
+
+/* .mainSubBookingFormWrap a.normalBtnLink {
+	padding: 4px 3.5em;
+} */
+.mainSubBookingFormWrap a.normalBtnLink.bigGreyLnk {
+    padding: 3px 1% 3px;
+}
+
+.unitsCol {
+	min-width: 105px !important;
+}
+
+#quickFreightDimensionsGrid input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+}
+.ui-draggable-dragging {
+	z-index: 50;
+}
+.numberOfItem .formInputWrap {
+    width: 78%;
+}
+#totalUnitsGrid  tbody  tr {
+  line-height: 20px !important;
+}
+
+.rowItem.numberOfItem.spacingStyle > label {
+    width: 20%;
+   margin-right: 2%;
+}
+
+.numberOfItem .formInputWrap div{display:inline-block;}
+
+.formWrapperSpan {
+    line-height: 25px;
+    vertical-align: top;
+}
+/* AccHeader tabbing focus, Booking tabs starts*/
+
+.accHeader a:focus{
+    font-style: italic;
+}
+
+.billVin a:focus{
+    font-weight: bold;
+}
+/* AccHeader tabbing focus, Booking tabs ends*/
+/* Css for Adjusting Customer code field*/
+ .threeColFormRow.formRow .rowItem.longCodeRowItem  label.threeColLabel{
+	width: 15%;
+	margin-right: -3px;
+ }
+ .threeColFormRow.formRow .rowItem.longCodeRowItem .formInputWrap.threeColFormInp {
+ 	width: 81%;
+ }
+ .threeColFormRow.formRow .rowItem.longCodeRowItem .formInputWrap.doubleInput input[type="text"].longCode.w40{
+ 		width: 25% !important;
+ }
+  .threeColFormRow.formRow .rowItem.longCodeRowItem .formInputWrap.doubleInput input[type="text"].longDesc.w60{
+ 		width: 73.6% !important;
+ }
+
+/* to remove left margin for 2column row in parties */
+ .billLadingPartyContentWrapper .formRow .rowItem:first-of-type {
+ 	margin-left: 0;
+ }
+
+.manifestStatus input{
+    position: relative;
+    top: 3px;
+}
+
+.mainBookingDetailsWrap .formInputWrap input[type ="text"], .mainBookingDetailsWrap .formInputWrap select {
+	width: 100%;
+}
+.searchErrorMsg + .buttonsList{
+	margin-top: 2px;
+}
+
+#bookingEmailDetails .formInputWrap {
+    width: 80%;
+}
+#bookingEmailDetails .formInputWrap input {
+    width: 25%;
+}
+#bookingEmailDetails .formInputWrap input {
+    width: 100%;
+}
+#bookingEmailDetails .formInputWrap textarea {
+    width: 99.5%;
+}
+#bookingEmailDetails .submitFromData > .formSubmitButtons {
+    text-align: center;
+}
+/* Main Booking Detail Styles End */
+
+/* 1280 Styles Begin */
+@media all and (max-width: 1599px) {
+                .formInputWrap input.shipBoardStatus {
+    margin-top: 5px;
+  }
+
+  /* Sub booking white space issue fix Start*/
+     #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap .rowItem.totalUnitsRow.wid40p{
+		width: 47%;
+		margin-right: 1%;
+     }
+     #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap .rowItem.wid35p, #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap .rowItem.w20, #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap .rowItem.militaryCargoRowItem{
+		width: 25% !important;
+		margin: 0 1% 0 0 !important;
+		height: 25px;
+     }
+     /* Sub booking white space issue fix End*/
+}
+/* 1280 Styles End */
+
+/* Above 1600 Styles Begin */
+@media all and (min-width: 1600px) {
+     /* Sub booking white space issue fix Start*/
+     #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap .rowItem.totalUnitsRow.wid40p{
+         width: 40%;
+     }
+     #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap .rowItem.wid35p, #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap .rowItem.w20{
+         width: 29% !important;
+         margin-left: 1% !important;
+         height: 25px;
+     }
+     #mainSubBookingForm .subBookingAccEle .threeColFormRow.formRow.totalUnitRowWrap label.totalUnitsLabel {
+  		width: 27%;
+     }
+     /* Sub booking white space issue fix End*/
+
+
+}
+/* Above 1600 Styles * End */
+.margLeft44per {
+	margin-left: 44%;
+}
+.margLeft40per {
+	margin-left: 40%;
+}
+
+/* 1920 Styles Begin */
+@media all and (min-width: 1920px) {
+	.leftSearchMenu{
+        height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .leftFilterMenuWrapper{
+        height: 500px;
+    }
+  .searchedForWrap {
+    width: 83%;
+    margin-left: 15px;
+  }
+.bookingGridContentWrapper.compressedState {
+    float: left;
+    padding-left: 0;
+    width: 85.5%;
+  }
+  .mainSubBookingListWrap {
+    width: 23%;
+    float: left;
+   /* max-height: 500px;*/
+    overflow-y: auto;
+    background-color: #dae2e5;
+    box-sizing: border-box;
+  }
+  .mainSubBookingFormWrap {
+	background-color: #ffffff;
+    /* border: 1px solid #92999d; */
+    box-sizing: border-box;
+    float: left;
+    height: auto !important;
+    /* margin-left: 1%; */
+    width: 100%;
+    /* padding: 10px 2%; */
+	border-radius: 0;
+	overflow-y: auto;
+  }
+  .accordionWrapper .accElement {
+    width: 100%;
+  }
+  .filterActionLink {
+    top: 51px;
+  }
+  .formInputWrap input.shipBoardStatus {
+    margin-top: 5px;
+  }
+  .rightActionListWrapper{
+  	min-height: 89%;
+	max-height: 90%;
+  }
+  .actionListWrapStyles.rightActionListWrapper {
+  	min-height: 84.9%;
+  }
+  .bookingGridContentWrapper.expandState .mainBookingListWrap .subBookingNbrsHdr {
+  	width: 223px;
+  	float: right;
+  }
+ }
+
+#bookingUnitForm .filterDiv, #billBooking .filterDiv {
+	padding: 6px 8px 6px 8px !important;
+}
+
+.singleColItem.ui-selecting .rowRemoveIcon.rowRemoveDisabledIcon, .singleColItem.activeSubBook .rowRemoveIcon.rowRemoveDisabledIcon{
+    background-position: -311px -224px;
+}
+/* 1920 Styles End */
+#mainSubBookingForm .accContent.thirdPartyDetailsAccEle .w20 {
+    width: 18.5% !important;
+    margin-top: .5%;
+}
+
+.searchErrorMsg {
+	left: 37% !important;
+	font-weight: bold;
+}
+
+.ui-datepicker{
+	z-index: 9999!important;
+}
+#mainAddBooking{
+   	border: 1px solid #446181;
+    background: #446181 no-repeat;
+    color: #ffffff;
+    height: 26px;
+}
+#billLadingDetailsForm input:not(.saveButton),#billLadingDetailsForm select,#billLadingDetailsForm textarea{
+	width: 100%;
+	box-sizing: border-box;
+}
+#billNameDesc{
+	width: 69% !important;
+}
+#billCountryCodeDesc{
+	width: 74% !important;
+}
+#billCountryCode{
+	width: 25% !important;
+}
+#bookTxtHdr{
+	font-size: 14px;
+}
+#bookingCargoListGrid tr td.leftAlign, #bookingCargoListGrid_wrapper .dataTables_scrollHeadInner tr th.leftAlign {
+    padding: 0 0 0 12px !important;
+    box-sizing: border-box;
+}
+#mainLegGridView tr th {
+    padding-left: 10px !important;
+    box-sizing: border-box;
+}
+.legField {
+	text-align: left !important;
+	color: black
+}
+.legField .fa {
+    margin: 0 6px;
+}
+#bookingRateListGrid td.normalSpace {
+    white-space: normal;
+    text-align: left;
+}
+#bookingUnit .actionListLinkASideDiv2 .billVin.singleColItem {
+	word-wrap:break-word; 
+}

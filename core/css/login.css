@@ -1,0 +1,76 @@
+nav {
+	margin-top: 0;
+	display: none;
+}
+body, textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: black;
+  border-radius: 0;
+  line-height: 100%;
+}
+.loginBg {
+	width: 100%;
+	min-width: 1280px;
+	height: 100vh;
+	background: url('../../img/core/signIn_bgCompressed.jpg') repeat-x center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.loginContent {
+	left: 35%;
+	margin: 0 auto;
+	border: 1px solid #d9d9d9;
+	border-radius: 0;
+	background-color: #ffffff;
+	padding: 48px 100px 60px;
+	width: 275px;
+	height: 335px;
+	position: absolute;
+	top: 15%;
+}
+.loginLogo {
+	background: url('../../img/core/Logo.png');
+}
+
+.loginHeading {
+	margin: 60px 0;
+	color: #446181;
+	font-size: 20px;
+	text-align: center;
+}
+
+.loginTxt{
+	color: #446181;
+	font-size: 14px;
+}
+
+.loginForm input[type="text"], .loginForm  input[type="password"] {
+   background-color: #ffffff;
+   border: 1px solid #d9d9d9;
+   color: #000000;
+   border-radius: 0;
+   box-shadow: none;
+   font-weight: normal;
+   font-size: 11px;
+   height: 22px;
+   width: 100%;
+   padding-left: 6px;
+}
+
+.loginButton {
+  margin-top: 40px;
+  width: 40%;
+}
+
+
+.loginLogo {
+	display: block;
+	margin: 0 auto;
+}
+.loginButtonWrapper{
+	text-align: center;
+}

@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	background-color: #ffffff;
+}
+fieldset {
+	border-width: 0px;
+}
+/* hearder section */
+/* logo section */
+.logo {
+    float: left;
+    margin-left: 15px;
+}
+.logoLnk{
+	width: 5%;
+}
+.logoImg{
+	height: 26px;
+}
+
+.logoLi:hover{
+	background-color: #ffffff!important;
+	border: 0 solid #e0e0e0!important;
+}
+/* navigation secton */
+nav {
+	width: 98%;
+	height: 28px;
+	margin-left: 9px;
+	margin-top: 5px;
+}
+nav li {
+    margin-right: 2px;
+    font-size: 14px;
+    height: 28px;
+}
+.navigationBar {
+  margin: 0;
+  padding: 0 1%;
+  width: 100%!important;
+  position: relative;
+}
+.navigationBar li {
+	float: right;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+	font-weight: normal;
+}
+
+.navigationBar li:hover,.navigationBar li.active {
+	background-color: #f0f0f0;
+	border-radius: 0;
+}
+.navigationBar a {
+	text-decoration: none;
+	color: #000000;
+	vertical-align: text-bottom;
+}
+.navigationBar li.active a {
+	color: #000000;
+}
+.navigationBar li:hover a {
+	color: #000000;
+}
+.navigationBar li a:focus {
+	color: #000000!important;
+	}
+
+.scheduleNav:hover {
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+}
+
+.mastrDataMgmtNav:hover {
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+}
+
+.navigationBar li .mdrMenu ul li, .navigationBar li .scheduleMenu ul li {
+	float: none;
+	font-weight: normal;
+	line-height: 30px;
+	padding: 0 0 0 0 !important;
+	position: relative;
+	text-align: left;
+	vertical-align: baseline;
+	width: 100%;
+	height: auto;
+}
+.scheduleNav .mdrMenu {
+		width: 403%;
+}
+
+.navigationBar li {
+   padding: 10px 13px 10px 13px;
+   border-width: 1px 1px 1px 1px;
+   margin-bottom: -1px;
+}
+
+li.mastrDataMgmtNav {
+	position: relative;
+}
+
+.subGrpHeader, .subGrpHeader:hover{
+    border-bottom: 1px solid #9b9b9b;
+    padding: 5px;
+}
+.navigationBar li .mdrMenu ul li.subGrpHeader, .navigationBar li .scheduleMenu ul li.subGrpHeader {
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+.navigationBar li:hover .mdrMenu ul  li.subGrpHeader:hover,.navigationBar li .mdrMenu ul  li.subGrpHeader.active , .navigationBar li:hover .scheduleMenu ul  li.subGrpHeader:hover,.navigationBar li .scheduleMenu ul  li.subGrpHeader.active  {
+    color: #000000;
+    border-radius: 0;
+    padding: 0;
+}
+.navigationBar li .mdrMenu ul li.subGrpHeader, .navigationBar li .scheduleMenu ul li.subGrpHeader {
+	height: 0;
+	line-height: 24px;
+	text-align: center;
+}
+
+.navigationBar li:hover .mdrMenu ul  li.subGrpHeader:hover,.navigationBar li .mdrMenu ul  li.subGrpHeader.active, .navigationBar li:hover .scheduleMenu ul  li.subGrpHeader:hover,.navigationBar li .scheduleMenu ul  li.subGrpHeader.active {
+	color: #000000;
+	border-radius: 0;
+	padding: 0;
+}
+.navigationBar li:hover .mdrMenu ul li:hover a,.navigationBar li:hover .mdrMenu ul li:hover .subMenu li:hover a, .navigationBar li:hover .scheduleMenu ul li:hover a, .navigationBar li:hover .scheduleMenu ul li:hover .subMenu li:hover a	{
+	color: #000000;
+}
+
+.navigationBar li:hover .mdrMenu ul li:hover, .navigationBar li:hover .scheduleMenu ul li:hover {
+	background-color: #d0d0d0;
+	border-radius: 0;
+	margin-top: 0;
+}
+
+.navigationBar li .mdrMenu ul.navSubGrp li:nth-child(2),.navigationBar li .mdrMenu ul li:first-child {
+	border-top: 0;
+}
+.mdrMenu {
+	display: none;
+ 	border: 1px solid #e0e0e0;
+	border-top: 0;
+	float: none;
+	left: -56px;
+	position: absolute;
+	top: 27px;
+	z-index: 11;
+	width: auto;
+	padding: 5px 0;
+	background-color: #f0f0f0;
+}
+.mdrMenu>ul.navSubGrp, .scheduleMenu > ul.navSubGrp {
+	margin: 0;
+	margin-left: -1px;
+}
+
+
+.mastrDataMgmtNav  .mdrMenu {
+	width: 270%;
+}
+
+/* userMenu */
+.userMenu{
+margin-left: 5%;
+margin-right: 0!important;
+}
+
+.userMenu a {
+	text-decoration: none;
+	color: #000000;
+}
+.userMenu:hover {
+	border: 1px solid #e0e0e0;
+	border-bottom: none;
+}
+
+
+.userMenu li {
+    display: inline-block;
+    line-height: 20px;
+    list-style-type: none;
+    text-align: right;
+    vertical-align: top;
+}
+
+.userMenu li a {
+	vertical-align: top;
+}
+.userMenu .mdrMenu{
+	left: -63px;
+	width: 150px!important;
+}
+.preferencePage{
+	float: right;
+}
+header,.mainSection, .footerBar {
+    width: 100%;
+}
+
+.navigationBar .disable_module{
+	    cursor: default;
+}
+.disable_module_hover:hover{
+	background: none !important;
+}

@@ -1,0 +1,1217 @@
+/* Layut Styles Begin */
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+body header {
+    padding-top: 8px;
+}
+
+#wrapper,section,footer {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#wrapper {
+	height: auto;
+
+}
+
+.headerDivider {
+	background: url("../../img/core/main_navigaiton/header_grey_divider.png") repeat-y;
+	height: 58px;
+	width: 1px;
+	display: inline-block;
+	float: left;
+}
+
+.headerTitle {
+	font-weight: bold;
+	margin-top: 43px;
+	margin: 17px 0 0 1.5%;
+	float: left;
+}
+
+.logoLnk {
+	margin-right: 1%;
+	float: left;
+	display: inline-block;
+}
+
+
+
+footer {
+    padding: 5px 0;
+}
+
+.footerBar li.floatRight {
+	float: right;
+}
+
+.footerBar a {
+	text-decoration: none;
+}
+
+.footerBar li {
+	display: inline-block;
+	float: left;
+	padding: 0 16px;
+}
+
+.footerVerticalDivider {
+	display: inline-block;
+	float: left;
+	vertical-align: text-bottom;
+}
+
+.floatLeft {
+	float: left;
+}
+
+
+.whitebutton {
+    background-color: #d4d9dc;
+    border: 1px solid #c9d1d5;
+    border-radius: 5px;
+	padding: 9px 20px 9px 20px;
+    text-align: center;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.noUnderline,.noUnderline a {
+	text-decoration: none;
+}
+
+.underline,.underline a {
+	text-decoration: underline;
+}
+
+.hide {
+	display: none !important;
+}
+
+.floatRight {
+	float: right;
+}
+
+.visibilityHidden {
+	visibility: hidden;
+}
+
+.breadcrumbActiveLnk a {
+	font-weight: bold;
+}
+
+.breadcrumbActiveLnk {
+	font-weight: bold;
+}
+
+.icons_sprite {
+	display: inline-block;
+
+}
+
+.footerBar li:first-child {
+	padding-left: 0;
+}
+
+.m_t_10 {
+    margin-top: 10px !important;
+}
+.m_t_0 {
+  margin-top: 0;
+}
+
+.m_t_20 {
+	margin-top: 20px;
+}
+
+.m_b_10 {
+	margin-bottom: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* header Styles Begin */
+
+
+.quesMarkIcon {
+	background-position: -56px -220px;
+	position: relative;
+	top: -2px;
+	width: 18px;
+}
+
+.signoutIcon {
+	vertical-align: baseline;
+	background-position: -19px -222px;
+	width: 18px;
+}
+
+.clearAll {
+	clear: both;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.helpText {
+	vertical-align: top;
+}
+
+.userMenu .icon {
+	margin-right: 5px;
+}
+.billLadingPartyContentWrapper ~.disabledLink,
+.billLadingPartyContentWrapper .disabledLink {
+   	background: #a1b0c0;
+    border: none;
+}
+
+.navSpriteIcon {
+	background-image: url("../../img/core/icons/icons_sprite.png");
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1em;
+}
+
+.bookingIcon.navSpriteIcon {
+	background-position: -19px -54px;
+}
+
+.bookingNav:hover span, .navigationBar li.active.bookingNav span {
+    background-position: -19px -19px;
+}
+
+.reportsIcon.navSpriteIcon {
+    background-position: -128px -55px;
+}
+.terminalNav:hover span {
+    background-position: -91px -19px;
+}
+.reportsNav:hover span, .navigationBar li.active.reportsNav span {
+   background-position: -128px -19px;
+}
+
+.documentationIcon.navSpriteIcon {
+	background-position: -57px -323px;
+}
+
+.documentationNav:hover span , .navigationBar li.active.documentationNav span{
+    background-position: -92px -323px;
+}
+
+.reportsNav:hover span {
+    background-position: -128px -19px;
+}
+
+.terminalIcon.navSpriteIcon {
+	background-position: -91px -54px;
+}
+
+.terminalNav:hover span, .navigationBar li.active.terminalNav span {
+    background-position: -91px -19px;
+}
+
+.scheduleIcon.navSpriteIcon {
+	background-position: -56px -54px;
+}
+.scheduleNav.active span {
+    background-position: -56px -19px;
+}
+.scheduleNav:hover span {
+    background-position: -56px -19px;
+}
+
+
+.mastrDataMgmtIcon.navSpriteIcon {
+	background-position: -161px -54px;
+}
+
+.mastrDataMgmtNav:hover span, .navigationBar li.active .mastrDataMgmtIcon.navSpriteIcon {
+    background-position: -161px -19px;
+}
+
+.navVerticalDivider {
+	background: url("../../img/core/main_navigaiton/Main-navi-Devider.png")
+		repeat scroll 0 0 rgba(0, 0, 0, 0);
+	float: right;
+	height: 46px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1px;
+}
+
+.mastrDataMgmtNav:hover span.greenDownArrowIcon, .navigationBar li.active span.greenDownArrowIcon {
+    background-position: -93px -217px;
+}
+
+.scheduleNav:hover span.greenDownArrowIcon, .navigationBar li.active span.greenDownArrowIcon {
+    background-position: -93px -217px;
+}
+
+.greenDownArrowIcon {
+	background-position: -57px -184px;
+	width: 14px;
+}
+
+/* header Styles End */
+
+/* navigation bar styles */
+
+
+
+li.mastrDataMgmtNav {
+	position: relative;
+}
+.navigationBar li:hover .mdrMenu ul li, .navigationBar li:hover .scheduleMenu ul li {
+	border-radius: 0;
+	margin-top: 0;
+}
+
+/* navigation bar styles */
+.breadcrumb {
+    padding-top: 0;
+}
+
+.breadcrumb ul {
+	list-style-type: none;
+}
+.breadcrumb a {
+	text-decoration: none;
+}
+
+h1.rolesTitle {
+    font-weight: normal;
+    padding-top: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.ui-datepicker-trigger {
+	cursor: pointer;
+}
+
+/* Export button styles Begin */
+.exportButtons {
+    clear: left;
+    width: 100%;
+    float: left;
+    margin: 5px 0 5px;
+}
+
+.rolePage .exportButtons {
+	margin-bottom: 5px;
+}
+
+.buttonsList {
+	float: right;
+	display: inline-block;
+}
+
+.buttonsList .removeIcon {
+	background-position: -91px -86px;
+}
+.eyeIcon {
+	background-position: -93px -258px;
+}
+.comboButton:hover .eyeIcon,  .lightGreyGradient:hover .eyeIcon {
+	background-position: -274px -88px;
+}
+.rightArrowIcon {
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid #ffffff;
+	border-bottom: 6px solid transparent;
+}
+
+.smallRightArrwIcon {
+	background-position: -57px -192px;
+}
+
+.smallBottomArrowIcon {
+	background-position: -57px -192px;
+}
+
+.bottomArrowIcon {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 12px solid #ffffff;
+}
+
+
+
+.editIcon {
+    background-position: -19px -91px;
+}
+
+.iconBtn .editIcon {
+	background-position: -16px -86px;
+}
+
+.exportButtons h1 {
+    float: left;
+	width: 40%;
+}
+
+.buttonWrapper {
+	float: left;
+	vertical-align: top;
+	width: 100%;
+}
+
+
+.comboButton {
+	height: 21px;
+}
+
+.comboButton:hover,.rightBg.active .comboButton:hover {
+	background-position: left -153px;
+}
+
+.comboButton:hover .buttonIcon.exportExcelIcon,.lightGreyGradient:hover .exportExcelIcon {
+	background-position: -55px -124px;
+}
+
+.comboButton:hover .buttonIcon.editIcon,.lightGreyGradient:hover .editIcon {
+	background-position: -18px -124px;
+}
+
+.comboButton:hover .removeIcon, .whiteRemoveIcon, .lightGreyGradient:hover .removeIcon {
+	background-position: -91px -120px;
+}
+
+.whiteMinusIcon {
+	background-position: -237px -184px;
+}
+
+.comboButton:hover .plusIcon, .whitePlusIcon,  .lightGreyGradient:hover .plusIcon {
+	background-position: -128px -120px;
+}
+
+.rightBg:hover,.rightBg.active:hover {
+	background-position: right -106px;
+}
+
+.rightBg.active {
+	background-position: right -199px;
+}
+
+.rightBg.active .comboButton {
+	background-position: left -246px;
+	font-weight: bold;
+}
+
+/* Export button styles end */
+.calendarIcon {
+	background-position: -55px -159px;
+}
+
+.errorSmallIcon {
+	background-position: -20px -325px;
+}
+
+.plainCircleIcon {
+	background-position: -163px -295px;
+}
+
+.clockIcon {
+	background-position: -129px -323px;
+}
+
+.smallDotIcon, .smallRemoveIcon {
+	background-position: -200px -20px;
+	cursor: pointer !important;
+	height: 19px;
+	width: 14px !important;
+}
+
+.printIcon {
+	background-position: -201px -261px;
+}
+
+.comboButton:hover .printIcon, .whitePrintIcon,  .lightGreyGradient:hover .printIcon {
+	background-position: -238px -323px;
+}
+
+.emailIcon {
+	background-position: -200px -192px;
+	width: 26px;
+}
+
+.comboButton:hover .emailIcon, .whiteEmailIcon,  .lightGreyGradient:hover .emailIcon {
+	background-position: -273px -123px;
+}
+
+
+.ui-datepicker-trigger {
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.navigationBar li .mdrMenu ul.navSubGrp li:nth-child(2), .navigationBar li .mdrMenu ul li:first-child{
+	border-top: 0 ;
+}
+
+.navigationBar li:hover .mdrMenu ul li , .navigationBar li:hover .scheduleMenu ul li{
+	border-radius: 0;
+	margin-top: 0;
+}
+
+.navigationBar li .mdrMenu ul li:first-child {
+	border-top: 0;
+}
+
+.m_r_2 {
+	margin-right: 5%;
+}
+
+.editCurrencyData,.headerGreyBanner {
+	background-color: #cdd1d4;
+	padding: 10px 1%;
+}
+
+.headerGreyBanner h1 {
+	font-weight: bold;
+}
+
+.headerGreyBannerData {
+	margin-top: 15px;
+}
+
+.m_b_20 {
+	margin-bottom: 20px;
+}
+
+.greyBoldText {
+	font-weight: bold;
+}
+
+.greyBannerParamValPair {
+	float: left;
+	display: inline-block;
+}
+
+.formRow label {
+	float: left;
+	line-height: 20px;
+	margin-right: 10%;
+	vertical-align: baseline;
+	width: 30%;
+}
+
+.formRow:after {
+	clear: both;
+}
+
+.formInputWrap {
+	float: left;
+	width: 60%;
+}
+
+.ml10p {
+	margin-left: 10%;
+}
+
+.m_l_10e {
+	margin-left: 1em;
+}
+
+.marginTop20pxBottom20px {
+	margin: 20px 0 !important;
+}
+
+.m_tb_15 {
+	margin: 15px 0 !important;
+}
+
+.m_b_15 {
+	margin-bottom: 15px;
+}
+
+body .p_tb_20 {
+	padding: 20px 0;
+}
+
+.m_tb_10 {
+	margin: 10px 0 !important;
+}
+.m_tb_5 {
+  margin: 5px 0;
+}
+.m_l_10 {
+	margin-left: 3px;
+}
+
+.w40,.doubleInput div {
+	width: 40% !important;
+	float: left;
+}
+
+.w20,.quadInput div {
+	float: left;
+	width: 20% !important;
+}
+
+.formWrapper {
+	float: left;
+	width: 99.5%;
+  padding: 0 0.5%;
+}
+
+.formRow {
+	width: 100%;
+	margin-top: 5px;
+	clear: left;
+	float: left;
+	line-height: 15px;
+}
+
+.rowItem {
+	float: left;
+	width: 45%;
+	margin-left: 1%;
+}
+
+.mandatoryRedText {
+	margin: 5px 0;
+}
+
+.submitFromData {
+	text-align: center;
+	padding-top: 5px;
+	height: 50px;
+}
+
+.formInputWrap input[type="checkbox"] {
+	height: auto;
+	vertical-align: text-top;
+}
+
+.formInputWrap.radioItem label {
+	float: none;
+	margin-left: 3%;
+	width: auto;
+}
+
+.formInputWrap.radioItem input[type="radio"] {
+	vertical-align: text-top;
+}
+
+.successMsgDiv {
+	margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.redErrorBorder,.redBorder {
+	border: 1px solid #ff1515 !important;
+	box-shadow: none !important;
+}
+
+.successMsgDiv p {
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.saveButton, .cancelButton {
+	min-width: 96px !important;
+	cursor: pointer;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.w98 {
+  width: 98%;
+}
+.w97 {
+  width: 97%;
+}
+
+.formRow div.rowItem:nth-child(2) {
+	margin-left: 4%;
+}
+
+.rowItem.width100per {
+	width: 100%;
+}
+
+.rowItem.width100per label {
+	margin-right: 4%;
+	width: 14%;
+}
+
+.rowItem.width100per .formInputWrap {
+	width: 82%;
+}
+
+.rowItem.width100per .formInputWrap  input[type ="text"]{
+  margin-top: 0;
+}
+.rowItem.width100per .formInputWrap  select {
+	padding-left: 1%;
+  margin-top: 0;
+	/*width: 99%;*/
+}
+.width100per {
+	width: 100%;
+}
+
+.width97per {
+ 	width: 97%;
+}
+.toolTipContent .headerGreyBanner h1 {
+	padding: 25px 2% 20px;
+	width: 96%;
+}
+
+.ui-tooltip {
+	max-width: none !important;
+}
+
+.toolTipWrapper {
+	position: absolute;
+	width: auto;
+	height: auto;
+	z-index: 10;
+	background-color: #ffffff;
+	}
+
+.toolTipCloseIcon {
+	position: absolute;
+	right: 0;
+	top: 4px;
+	cursor: pointer;
+	background-position: -91px -86px;
+}
+
+.dialogCloseIcon.toolTipCloseIcon {
+	right: 0;
+	top: -2px;
+}
+
+.dialogCloseIcon.toolTipCloseIcon {
+	background-position: -91px -86px;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: -2px;
+}
+
+.navigationBar  .mdrMenu li a {
+	display: block;
+	padding-left: 3%;
+	vertical-align: baseline;
+	width: 95%;
+}
+
+.removeIcon {
+	background-position: -91px -86px;
+}
+
+.iconBtn .removeIcon {
+	background-position: -89px -84px;
+}
+
+.resetIcon {
+	background-position: -160px -223px;
+}
+
+.toolTipMainContent {
+	padding: 20px 3% 30px;
+	background-color: #e9eef1;
+}
+
+/* Grey Table Styles Begin*/
+.greyTable {
+	border-radius: 4px;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.greyHeader, .greyTableHeader, table.dataTable thead th.greyTableHeader {
+	padding: 0;
+	height: 33px;
+	text-align: center !important;
+}
+
+table thead th.greyTableHeader:first-child {
+	border-left: none;
+}
+
+.greyTable td {
+	height: 25px;
+	padding-left: 10px;
+	empty-cells: show;
+	border-left: 1px solid #bbbbbb;
+	border-right: medium none;
+	line-height: 22px;
+}
+
+.center {
+	text-align: center;
+}
+
+.greyTable tbody tr:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+
+.greyTable tbody tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+.greyTable tbody tr td:last-child {
+	border-right: 1px solid #bbbbbb;
+}
+/* Grey Table Styles End*/
+.m_t_30 {
+	margin-top: 30px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.noteText {
+	font-style: italic;
+}
+
+.tabSection {
+	border-bottom: 1px solid #446181;
+	float: left;
+	margin-top: 5px;
+	width: 100%;
+}
+#documentationOfcPopup .tabWrapper .tabSection {
+	border-bottom: none !important;
+}
+.tabSection li {
+	float: left;
+	position: relative;
+	padding: 10px 1.5%;
+}
+
+.tabSection li.active {
+	bottom: -1px;
+	font-weight: bold;
+	border: 1px solid #446181;
+	border-bottom: 1px solid #e9eef1;
+	border-radius: 5px 5px 0 0;
+}
+
+.tabSection li:first-child {
+	margin-left: 3%;
+}
+
+.orangeBoldText {
+	font-weight: bold;
+}
+
+.errorLabel {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.dialog {
+	display: none;
+}
+
+.ui-dialog .ui-dialog-content {
+	/*padding: 20px!important;*/
+	background-color: #e9eef1;
+}
+
+body .areaCalculation li.rowItem:first-child {
+	margin-left: 0;
+}
+
+body .bigGreyLnk {
+	display: block;
+	padding: 5px 1% 5px;
+	width: 98%;
+}
+
+.formInputWrap.doubleInput .width25per,.width25per {
+	width: 25%;
+}
+
+.formInputWrap.doubleInput .width65per,.doubleInput .width65per {
+	margin-left: 1%;
+	width: 73%;
+}
+
+.formInputWrap.doubleInput .w45 {
+	width: 45%;
+}
+
+.formInputWrap.doubleInput input[type="text"] {
+	float: left;
+	box-sizing: border-box;
+	height: 22px;
+}
+
+.datePickerIcon {
+	background-position: -57px -159px;
+}
+
+.whiteBoldText {
+	font-weight: bold;
+}
+
+.ui-widget .popUpTitle {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/*Overriding table tools widget Styles Begin*/
+.exportExcelLnk {
+	margin-left: 0;
+}
+.DTTT_container {
+	display: inline-block;
+	margin-left: 0;
+}
+
+/*Overriding table tools widget Styles End*/
+
+/* Date Picker FOrm Field Styles Begin*/
+.datePickerInpWrap.formInputWrap input[type="text"] {
+	box-sizing: border-box;
+	float: left;
+	width: 90%;
+}
+
+.datePickerIconWrap {
+    display: inline-block;
+    float: right;
+    width: 10%;
+}
+
+.datePickerIconWrap .datePickerIcon {
+	cursor: pointer;
+	float: right;
+	margin-top: 3px;
+}
+/* Date Picker FOrm Field Styles End*/
+
+/* For Readonly to Appear like Disabled */
+input[readonly],input[disabled],select[readonly],select[disabled],textarea[readonly],textarea[disabled] {
+	background: buttonface;
+}
+
+.ui-autocomplete,.ui-autocomplete.ui-front {
+	z-index: 600 !important;
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.noTitleBar .ui-dialog-titlebar {
+	display: none;
+}
+
+.ui-autocomplete.ui-front .ui-state-focus {
+	font-weight: normal;
+}
+
+ .noTitleBar .ui-dialog-titlebar {
+ display: none;
+ }
+/* Layout Styles End */
+
+
+.plainCircleIcon {
+	background-position: -163px -296px;
+}
+
+.comboButton:hover .plusIcon,.whitePlusIcon {
+	background-position: -128px -123px;
+}
+
+.comboButton:hover .removeIcon,.whiteRemoveIcon {
+	background-position: -89px -118px;
+}
+
+.whiteMinusIcon {
+	background-position: -237px -184px;
+}
+
+.minusIcon {
+	background-position: -505px -332px;
+	width: 15px;
+	height: 5px;
+}
+
+
+.areaCalculation {
+	background-color: #ffffff;
+	border: 1px solid #d9d9d9;
+	padding: 5px 4.5% 5px;
+	position: relative;
+	width: 91%;
+}
+
+.areaCalculation .iconBtn, .iconBtn {
+	cursor: pointer;
+	height: 28px;
+	padding: 3px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.areaCalculation li.rowItem {
+	margin-left: 10%;
+	width: 10%;
+}
+.rowRemoveIcon {
+    background-position: -200px -20px;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+}
+
+.areaCalculation li.rowItem label {
+	font-weight: bold;
+	margin-right: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.areaCalculation li.rowItem .formInputWrap {
+	clear: left;
+	margin-top: 5px;
+	width: 100%;
+}
+
+body .areaCalculation li.rowItem:first-child {
+	margin-left: 0;
+}
+
+body .bigGreyLnk {
+	display: block;
+	padding: 3px 1% 4px;
+	width: 98%;
+}
+
+.formInputWrap.doubleInput .width25per {
+	width: 25%;
+}
+
+.formInputWrap.doubleInput .w45 {
+	width: 45%;
+}
+.formInputWrap.doubleInput .w55 {
+	width: 52%;
+	margin-left: 1%;
+}
+
+
+.datePickerIcon {
+	background-position: -56px -159px;
+}
+
+.error {
+	font-style: italic;
+	color: red;
+}
+
+.errorGap {
+	float: none !important;
+	line-height: 10px !important;
+}
+
+
+.eyeIcon {
+	background-position: -93px -258px;
+	width: 23px;
+}
+
+ .icons_sprite.loadingIcon, .loadingIcon {
+	background-image: url("../../img/core/icons/ajax_loader_dwnload.gif") !important;
+	background-repeat: no-repeat;
+   height: 59px;
+   margin: 20px 0 20px 50%;
+   width: 80px;
+}
+
+.comboButton:hover .saveIcon, .whiteSaveIcon,  .lightGreyGradient:hover .saveIcon {
+	background-position: -384px -91px;
+}
+.buttonsList .saveIcon, .saveIcon {
+  background-position: -384px -54px;
+}
+
+
+
+.roundDownArrowIcon {
+	background-position: -348px -125px;
+    height: 19px;
+    width: 18px;
+}
+
+.ui-dialog-content .submitFromData {
+	padding-bottom: 10px;
+}
+
+.popOverUpIcon {
+	background-position: -21px -294px;
+	width: 12px;
+	height: 6px;
+}
+
+.m_lr_5 {
+	margin: 0 5px;
+}
+
+.preloaderWrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    position: fixed;
+    opacity: 0.6;
+    z-index: 9999;
+    text-align: center;
+
+}
+.SearchByIcon {
+  background-position: -159px -315px;
+  margin-left: 20%;
+  padding-bottom: 12%;
+}
+
+.preloaderWrapper img {
+    left: 50%;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    z-index: 99999;
+}
+.titleWrap {
+  height: 30px;
+  width: 50%;
+  float: left;
+}
+#collapseHeaderNav {
+  padding: 0;
+  margin-left: 1em;
+  margin-top: 8px;
+}
+.buttonsList .collapseIcon, .collapseIcon {
+  background-position: -159px -321px;
+  padding: 0.25em;
+  transform: rotate(-90deg);
+  margin: 0;
+}
+
+.marginBottom5px {
+  margin-bottom: 5px;
+}
+::-ms-clear { display: none; }
+
+.dataTables_scrollHead table thead th a.filterLnk {
+    display: none;
+}
+
+.m_t_5 {
+	margin-top: 5px;
+}
+.inlineDiv {
+	display: inline-block;
+}
+
+body .disableHandCursor,#totalUnitsGrid thead th.disableHandCursor{
+	cursor: default;
+}
+
+.buttonsList .billIcon, .billIcon {
+	background-position: -385px -123px;
+}
+.lightGreyGradient:hover .billIcon {
+	background-position: -385px -157px;
+}
+
+.buttonsList .quickBookIcon, .quickBookIcon {
+	background-position: -385px -192px;
+}
+.lightGreyGradient:hover .quickBookIcon {
+	background-position: -388px -223px;
+}
+.formRow.m_t_10 {
+	margin-top: 10px;
+}
+.helpLink{
+	color: #446181 !important;
+}
+
+
+/* 1280 Styles Begin */
+@media all and (max-width: 1599px) {
+	.formRow select {
+		padding: 0;
+	}
+	.navSpriteIcon {
+		margin-right: 0.5em;
+	}
+}
+
+/* 1280 Styles End */
+
+/* Above 1600px Styles Begin */
+
+
+/* Above 1600px Styles Begin */
+
+/* 1920 Styles Begin */
+@media all and (min-width: 1920px) {
+	body {
+		line-height: 110%;
+	}
+	.formInputWrap.radioItem input[type="radio"] {
+		vertical-align: middle;
+	}
+
+}
+/* 1920 Styles End */
+.numericField {
+  text-align: right;
+}
+/*Not Important Hide*/
+.nIhide{
+	display: none;
+}
+.subGrpHeader.generalSch{
+	display: none;
+}
+.ui-dialog[aria-describedBy="idletimer_warning_dialog"] .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+	display: block;
+}
+
+.buttonsList span:last-of-type {
+    margin-right: 20px!important;
+}

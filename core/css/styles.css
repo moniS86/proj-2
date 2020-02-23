@@ -1,0 +1,160 @@
+
+.clickInfoText {
+    margin: 5px 0 15px;
+}
+
+
+.roleHeading {
+	border-radius: 5px 0 0 0;
+}
+
+
+h3 {
+    margin: 0;
+}
+
+
+
+table#roleContractEditGrid.dataTable tbody tr:nth-child(1) td{
+    border-top: none;
+}
+
+table.dataTable thead th.greyTableHeader {
+    background: url("../../img/core/Table/Table-gray-gradient.png") repeat-x;
+	height: 30px;
+}
+
+table.dataTable.cell-border#roleContractEditGrid tbody tr th:first-child, table.dataTable.cell-border#roleContractEditGrid tbody tr td:first-child {
+	border-left: 1px solid #bbbbbb;
+	}
+
+
+table.dataTable#roleContractEditGrid  thead th {
+	border-bottom: none;
+    border-right: 1px solid #bbbbbb;
+}
+#roleContractEditGrid  tbody td.readAccess,#roleContractEditGrid  tbody td.writeAccess,table.dataTable#roleContractEditGrid  thead th  {
+	text-align: center;
+}
+
+table.dataTable tr.odd,table.dataTable tr.odd td.sorting_1, table.dataTable tr.odd td.sorting_2, table.dataTable tr.odd td.sorting_3 {
+    background-color: #f1f1f1;
+}
+
+table.dataTable tr.even,table.dataTable tr.even td.sorting_1, table.dataTable tr.even td.sorting_2, table.dataTable tr.even td.sorting_3  {
+    background-color: #ffffff;
+}
+
+
+table.dataTable.no-footer#roleContractEditGrid {
+	border-bottom: 1px solid #bbbbbb;
+}
+
+#roleContractEditGrid.dataTables_wrapper:after, #roleContractEditGrid.dataTables_wrapper,#roleContractEditGrid.table.dataTable,#roleContractEditGridWrapper.dataTables_wrapper:after, #roleContractEditGridWrapper.dataTables_wrapper{
+	clear: none;
+}
+
+th.greyTableHeader.componentTd {
+	border-radius: 2px 0 0 0;
+}
+th.greyTableHeader.writeAccess {
+	border-radius: 0 2px 0 0;
+}
+
+
+.submitRoleData {
+	padding: 5px;
+}
+
+.roleSaveButton {
+	min-width: 100px;
+	cursor: pointer;
+}
+
+
+.roleCancelButton {
+	text-decoration: none;
+	display: inline-block;
+	min-width: 100px;
+	margin-left: 20px;
+}
+
+.successMsgDiv {
+	margin-left: 40px;
+}
+
+.successImg {
+	background: url("../../img/core/icons/Success-icon.png");
+	width: 24px;
+	height: 25px;
+	display: inline-block;
+}
+
+.roleChangeSuccess {
+	display: inline-block;
+	  vertical-align: middle;
+}
+
+.roleChangeSuccess p {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: super;
+}
+
+
+.clickedRole {
+	background-color: #c2c2c2;
+	font-weight: bold;
+}
+
+.clickedApp{
+	background-color: #d9d9d9;
+	font-weight: bold;
+    position: relative;
+}
+
+.saveLink{
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.triangleIcon {
+    background: url("../../img/core/icons/triangle_icon.png");
+    height: 17px;
+    left: -12px;
+    position: relative;
+    top: 3px;
+    width: 10px;
+    display: none;
+}
+
+.clickedApp .triangleIcon {
+    display: inline-block;
+}
+
+/* Currency Page Styles Begin */
+
+
+table.dataTable.cell-border#currencyGrid tbody th, table.dataTable.cell-border#currencyGrid tbody td {
+	border-left: none;
+	border-right: none;
+	}
+table.dataTable.stripe#currencyGrid tbody tr.odd, table.dataTable.display#currencyGrid  tbody tr.odd {
+	background-color: #ffffff;
+	border: 1px solid #bbbbbb;
+	}
+
+table.dataTable#currencyGrid tr.odd,table.dataTable#currencyGrid tr.odd td.sorting_1, table.dataTable#currencyGrid tr.odd td.sorting_2, table.dataTable#currencyGrid tr.odd td.sorting_3{
+    background-color: #ffffff;
+}
+
+table.dataTable#currencyGrid tr.even,table.dataTable#currencyGrid tr.even td.sorting_1, table.dataTable#currencyGrid tr.even td.sorting_2, table.dataTable#currencyGrid tr.even td.sorting_3  {
+    background-color: #f1f1f1;
+
+}
+.fa-fa-unlockImg {
+  height: 11px;	
+  width: 9.44px;    
+  content:url("/Vms/resources/img/core/icons/unlock_BL.png");	
+}
+

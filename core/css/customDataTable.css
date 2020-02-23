@@ -1,0 +1,149 @@
+table{
+	color: #000000;
+	border: none!important;
+	border-radius: 0;
+	margin: 0 auto;
+  width: 100%;
+  clear: both;
+  border-collapse: collapse;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+
+table span, td, th div{
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+table.dataTable.no-footer {
+    border-bottom: none!important;
+}
+th, td{
+	padding-left: 10px;
+	padding-bottom: 0!important;
+	padding-top: 0!important;
+	height: 24px;
+	empty-cells: show;
+	overflow-wrap: break-word;
+}
+td{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+th{
+	color: #000000;
+	border-left: none;
+	text-align: center;
+	padding-left: 10px!important;
+}
+tr{
+	height: 24px;
+}
+td:not(.cargoListToolTip .toolTipList td){
+	border-top: 1px solid #ececec!important;
+}
+td:first-child:not(.cargoListToolTip .toolTipList td) {
+	border-left: 1px solid #ececec!important;
+}
+td:last-child:not(.cargoListToolTip .toolTipList td) {
+	border-right: 1px solid #ececec!important;
+}
+tr:last-child td:not(.cargoListToolTip .toolTipList td) {
+    border-bottom: 1px solid #ececec!important;
+}
+table i{
+	font-size: 16px;
+}
+th:nth-child(1):not(.ui-datepicker-week-end):not(.wid80px):not(.not60pxHeader) {
+  width: 60px;
+}
+td input[readonly]{
+	border: none;
+ 	background-color: rgba(0, 0, 0, 0)!important;
+ 	color: black!important;
+}
+
+.buttonsList .exportExcelIcon {
+    height: 100%;
+    width: 24px;
+}
+
+tr.odd:not(.bgHiglight){
+	background-color: #f9f9f9!important;
+}
+tr.even:not(.bgHiglight){
+	background-color: #ffffff!important;
+}
+table.dataTable thead th.sorting:after, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
+	top: 14px!important;
+    right: 21px!important;
+}
+div.dt-buttons {
+	float: none!important;
+}
+button.dt-button{
+	line-height: 100%;
+}
+.dataTables_wrapper .dataTables_paginate {
+	float: none;
+	text-align: center;
+	}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button:active,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+	background: none;
+  	color: #000 !important;
+  	background-color: #d0d0d0;
+  	border: 1px solid #a0a0a0;
+  	font-weight: bold;
+  	border-radius: 0;
+  	box-shadow: none;
+}
+
+table.dataTable select:not(.blCommentsOptions):not(.filterBox):not(.mainLegChangeOption), table.dataTable input[type="text"]:not(.blCommentText):not(.filterBox){
+    border-top: none;
+    border-bottom: none;
+    height: 24px!important;
+}
+table.dataTable input[readonly],table.dataTable input[disabled]{
+	border: none!important;
+	background-color: transparent!important;
+	color: black!important;
+}
+table.dataTable input[readonly][type="text"], table.dataTable input[disabled][type="text"],
+table.dataTable input[readonly][type="checkbox"], table.dataTable input[disabled][type="checkbox"]{
+    background-color: transparent!important;
+}
+table.dataTable tr, table.dataTable tr td{
+	border-left: none!important;
+}
+table.dataTable{
+border-collapse: collapse;
+}
+table.dataTable.orangeTable {
+    overflow: visible;
+    width: 99%;
+}
+table.dataTable tbody{
+	border: solid 1px #ececec;
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody{
+	border-bottom: none!important;
+}
+
+table.dataTable.display.orangeTable tbody tr.odd {
+    border: none!important;
+}
+.bookingTableWrapper .routeDetailGrid th:last-child{
+	text-align: left !important;
+}
+.areaCalculation #voyagePurpose{
+	width: 100%;
+}
+.areaCalculation #voyagePurpose option{
+	padding: 3px 0;
+}

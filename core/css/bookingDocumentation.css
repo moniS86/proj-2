@@ -1,0 +1,1110 @@
+
+/* Unlocked css image is same as printed (By BA team) */
+.unlocked {
+	background-position: -460px -90px;
+	width: 19px;
+	height: 21px;
+}
+.manifested {
+	background-position: -460px -124px;
+	width: 19px;
+	height: 20px;
+}
+
+.printed {
+	background-position: -460px -90px;
+	width: 19px;
+	height: 21px;
+}
+
+.created {
+	background-position: -459px -20px;
+	width: 19px;
+	height: 21px;
+}
+.numericField{
+	text-align: right !important;
+}
+.retracted {
+    background-position: -460px -20px;
+    width: 19px;
+    height: 21px;
+}
+
+.issued {
+	background-position: -460px -54px;
+	width: 19px;
+	height: 21px;
+}
+
+.singleLeg {
+    border: 1px solid #bbb;
+    display: inline-block;
+    line-height: 15px;
+    margin-left: 0.5em;
+    padding: 0 0.25em;
+
+}
+.singleLeg .allocItems {
+	float: right;
+}
+.singleLegNoVoyage {
+    border: 1px solid #bbb;
+    display: inline-block;
+    line-height: 15px;
+    margin-left: 0.5em;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.defaultSearchMsg {
+  position: absolute;
+  top: 25%;
+}
+.compressedState .defaultSearchMsg {
+	margin-left: 50%;
+}
+.defaultSearchMsg p.first {
+	font-weight: bold;
+  line-height: 20px;
+}
+.defaultSearchMsg p.second {
+  font-weight: normal;
+  line-height: 20px;
+}
+.voyageTextVal.w70 {
+  margin-left: 0 !important;
+  width: 70% !important;
+}
+#documentationIssueBlForm .voyageTextVal.w70{
+	  text-align: right;
+}
+
+#dialog-confirm .ui-icon-alert{
+	display: none;
+}
+div#dialog-confirm p {
+    padding-left: 5px;
+}
+
+.legTimeStamp > span {
+    display: block;
+    line-height: 14px;
+}
+.legTimeStamp > span:nth-child(2) {
+    margin-top: 2px;
+}
+
+#getVesselData {
+	display: block;
+    text-align: center;
+    float: right;
+    height: 20px;
+    font-weight: bold;
+    padding-right: 0;
+    padding: 0;
+    margin-right: 0 !important;
+    width: 23%;
+}
+.searchBy + .resetSearch {
+	float: right;
+    padding: 0 !important;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+    display: block;
+    width: 23%;
+}
+#leftSearchMenu .searchBy{
+	display: block;
+    width: 75% !important;
+}
+#totalUnitsGrid td .fa {
+    cursor: pointer;
+}
+.mainBookingItemIcons {
+	position: absolute;
+    right: 5px;
+    top: 2px;
+}
+.singleColItem.ui-selecting .rowRemoveIcon,.singleColItem.activeSubBook  .rowRemoveIcon{
+	background-position: -311px -262px;
+	height: 19px;
+	width: 18px;
+}
+
+.possibleVoyageNewWrap {
+	float: left;
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.possibleVoyageNewWrap_quick {
+	float: left;
+	max-width: 100%;
+	max-height: 125px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+.singleLeg > span {
+    line-height: 30px;
+    padding: 0 0.25em;
+    vertical-align: top;
+}
+.singleLeg span.allocCodeIcon {
+	padding: 5px;
+}
+
+.singleLegNoVoyage span {
+  padding: 0.25em 0.25em;
+  line-height: 30px;
+  vertical-align: top;
+}
+
+.possibleVoyageNewWrap .singleVoyageRow{
+  	margin: 5px 0;
+    width: auto;
+}
+.possibleVoyageNewWrap .singleVoyageRow input[type="radio"] {
+	line-height: 30px;
+    vertical-align: baseline;
+}
+body .mainBookingListWrap .SubBookingNbrs_Hdr .filterDiv, body .mainSubBookingListWrap  .filterDiv {
+  padding: 0 0 !important;
+}
+body .mainSubDocumentationListWrap .SubBookingNbrs_Hdr .filterDiv,body .mainDocumentationListWrap .SubBillLadingNbrs_Hdr .filterDiv  {
+    padding: 0 0 !important;
+}
+
+.mainBookingListWrap .SubBookingNbrs_Hdr {
+    padding-left: 24px;
+}
+
+.mainSubDocumentationListWrap a.normalBtnLink {
+	padding: 4px 3.5em;
+}
+.label_quickbook{
+	margin-right: 30% !important ;
+	width: 14%;
+}
+
+.documentationContent .rowItem.bookingLinkDetails {
+  width: 20% !important;
+}
+.rowItem.moveUnitsDetails {
+  width: 10% !important;
+}
+.rowItem.moveUnitsDetails  .mainMoveUnitsLnk ,.rowItem.bookingLinkDetails  #mainViewSummaryLink{
+  margin: 0;
+}
+.rowItem.marksRowItem, .rowItem.cargoRowItem {
+  width: 30%;
+  margin-left: 0 !important;
+}
+.numberOfItem .formInputWrap {
+	width: 70%;
+}
+.numberOfItem .formInputWrap div {
+	display: inline-block;
+}
+.threeColFormRow.formRow .numberOfItem label {
+	width: 25%;
+}
+.billLadingHeaderWrapper .threeColFormRow.formRow .rowItem.w20,.thirdPartyDetailsAccEle .threeColFormRow.formRow .rowItem.w20 {
+	width: 20%;
+}
+.billLadingHeaderWrapper .threeColFormRow.formRow .rowItem.w45 , .thirdPartyDetailsAccEle .threeColFormRow.formRow .rowItem.w45 , .thirdPartyDetailsAccEle .threeColFormRow.formRow .rowItem.w45 select{
+	width: 40%;
+}
+.billLadingHeaderWrapper .threeColFormRow.formRow .rowItem label {
+	margin-right: 3%;
+	word-break: normal;
+}
+.thirdPartyDetailsAccEle .threeColFormRow.formRow .rowItem.w45 label  {
+  margin-right: 0 ;
+  word-break: normal;
+  width: 27%;
+}
+.formInputWrap.doubleInput .carrierOtherDetails {
+  float: right !important;
+  width: 59%;
+}
+
+/* .billLadingHeaderWrapper .accContent {
+	padding: 0 0.5% 5px;
+} */
+
+.billLadingHeaderWrapper  .threeColFormRow.formRow .rowItem, .threeColFormRow.formRow div.rowItem, .billLadingHeaderWrapper  .threeColFormRow.formRow .rowItem, .threeColFormRow.formRow div.rowItem:nth-child(2) {
+	margin-left: 1%;
+    width: 32%;
+}
+.formInputWrap  label.shipBoard {
+    float: right;
+    width: 70% !important;
+    line-height: 25px;
+}
+
+.formInputWrap .w62 {
+  width: 62% !important;
+}
+.fourColFormRow.formRow .width35per {
+  width: 35% !important;
+  margin-right: 0;
+}
+.fourColFormRow.formRow  .w62 {
+  margin-left: 3%;
+  width: 62%;
+}
+#addCarriageLegPopup , #editCarriageLegPopup{
+  padding: 0.5em 1em;
+}
+.accElement.billLadingHeaderWrapper .rowItem:nth-child(5) {
+    width: 17% !important;
+}
+
+.accElement.billLadingHeaderWrapper .rowItem:not(:first-child) {
+    margin-left: 1% !important;
+}
+.rightSmallArrow {
+  background-position: -201px -297px;
+  width: 17px;
+  height: 15px;
+  color: black !important;
+}
+
+.leftSmallArrow {
+  background-position: -165px -327px;
+  width: 17px;
+  height: 15px;
+  color: black !important;
+}
+.legTimeStamp {
+  display: inline-block;
+  padding: 0 0.25em;
+}
+.CargoUnitVin.singleColItem.activeSubBook .roundDownArrowIcon {
+  background-position: -348px -159px;
+  height: 19px;
+  width: 18px;
+}
+.formWrapperSpan {
+  vertical-align: top;
+  line-height: 25px;
+}
+
+.legTimeStamp > span {
+    display: block;
+    line-height: 12px;
+}
+.legTimeStamp > span:nth-child(2) {
+    margin-top: 2px;
+}
+#mainLegGridView_info {
+	padding: 0.5em 0 1em 1em;
+}
+.rowItem.width25per .radioItem.width100per {
+	line-height: 30px;
+}
+
+.ui-menu-item a {
+  white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#viewPrintSettingsGrid td , #bookingRateListGrid td , #bookingUnitsDimensionsGrid td, #makeModelListGrid td{
+  height: 25px;
+  text-align: center;
+}
+.dialogWidth{
+	width: 25% !important;
+}
+#viewPrintSettingsGrid th {
+	text-align: center;
+	position: static;
+}
+#viewPrintSettingsGrid td:nth-child(2) {
+	width: 25%;
+}
+#viewPrintSettingsGrid td:nth-child(1) {
+	text-align: left;
+}
+#bookingCargoListGrid td{
+  height: 25px;
+}
+#valSelLpDp {
+  width: auto;
+}
+.bookingUnitContent .formRow div.rowItem:nth-child(2) {
+    margin-left: 9%;
+}
+.cargoCondition {
+  width: 97% !important;
+  height: 22px !important;
+}
+.subBookListColWrap.totalUnitsListColWrap {
+  height: 525px ;
+}
+.formRow label.threeColLabel {
+  width: 23%;
+  margin-right: 6.5%;
+}
+.cargoDetailsAccEle .threeColFormRow.formRow label {
+    margin-right: 1%;
+  width: 39%;
+}
+#addUpdateChargesGrid tr td, #mainBookingDimensionsGrid tr td {
+  height: 25px;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.m_l_15 {
+  margin-left: 15px;
+}
+
+#subBookingChargesGrid tbody td input.chargeCurrency.w35p {
+  width: 35px;
+}
+
+.threeColFormRow.formRow .rowItem.totalUnitsRow {
+  width: 43%;
+}
+.subBookingAccEle .threeColFormRow.formRow label.totalUnitsLabel {
+  width: 23%;
+  margin-right: 0;
+}
+.subBookingAccEle  .formInputWrap.totalUnitsTable {
+  width: 73%;
+}
+#totalUnitsGrid {
+  width: 100%;
+}
+.formRow select.subBookingAttr {
+  width: 47%;
+}
+.rowItem.w20 {
+  width: 20%;
+}
+.rowItem.w20.militaryCargoRowItem {
+  position: relative;
+  float: left;
+  margin: 0 4% 0 1% !important;
+}
+.rowItem.w20.hazardousCargoRowItem {
+  position: relative;
+  margin: 0 2em 0 0;
+}
+
+.subDocListColWrap.totalUnitsListColWrap {
+    height: 525px;
+    width: 20%;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+.formInputWrap.doubleInput .w30{
+  width: 30%;
+}
+.formInputWrap.doubleInput.width100per .width33per {
+  width: 35%;
+}
+.formInputWrap.doubleInput.width100per .width65per {
+  width: 64%;
+  margin-left: 1%;
+}
+.formInputWrap.doubleInput .w69 {
+  width: 68%;
+  margin-left: 1%;
+}
+.subBookingAccEle .threeColFormRow.formRow label {
+  margin-right: 1%;
+  width: 22%;
+}
+.subBookingAccEle .equipResCheck .formInputWrap.radioItem {
+    width: 79%;
+}
+ .subBookingAccEle .formInputWrap {
+  width: 77%;
+}
+.subBookingAccEle .rowItem label.subBookingAccLabel {
+  width: 13.5%;
+  margin-right: 0;
+}
+.subBookingAccEle .rowItem .formInputWrap.subBookingInpWrap {
+  width: 86.5%;
+}
+.subBookingAccEle .rowItem label.m_r_0p {
+  margin-right: 2px;
+  width: 21%;
+}
+.accContent.subBookingAccEle .rowItem.equipResCheck{
+	width: 10% !important;
+	margin-top: 4px;
+}
+.subBookingAccEle .rowItem label.subBookingDocLabel {
+    width: 24%;
+}
+.subBookingAccEle .rowItem .formInputWrap.subBookingDocWrap {
+  width: 74%;
+}
+.subBookingAccEle .rowItem .formInputWrap.subBookingDocWrap .width33per {
+  width: 33%;
+}
+.subBookingAccEle .rowItem .formInputWrap.subBookingDocWrap .w66 {
+  width: 66%;
+  margin-left: 1%;
+}
+#confirmDialogPopup {
+  height: 20%;
+}
+.formRow label.qkBookLabel {
+  margin-right: 0;
+}
+.formInputWrap.qkBookWrap {
+  width: 70%;
+}
+.accContent.subBookingAccEle .lastRow .rowItem.docOfficeRowItem {
+    width: 31.5% !important;
+}
+.formRow label.thirdPartyLabel {
+  width: 30%;
+  margin-right: 4%;
+}
+.formInputWrap.doubleInput.voyageCarrierInpWrap {
+  width: 65%;
+}
+.formRow.cargoThreeColRow.bookingCargoHeader .formInputWrap{
+  width: 70%;
+}
+.formRow.cargoThreeColRow.bookingCargoHeader .formInputWrap.cargoVinLink{
+  width: 90%;
+}
+.rowItem.w36 {
+  width: 36%;
+}
+.formInputWrap.doubleInput.threeColFormInp .w40 {
+  width: 30% !important;
+}
+.formInputWrap.doubleInput.threeColFormInp .w60 {
+  width: 68% !important;
+  margin-left: 1%;
+}
+.datePickerInpWrap.formInputWrap input[type="text"]:not(input[name="bookingFrom"]) {
+	width: 100% !important;
+}
+
+#documentationIssueBlForm .datePickerInpWrap.formInputWrap input[type="text"] {
+	    width: 91% !important;
+}
+#documentationIssueBlForm .voyageTextVal {
+	    width: 78% !important;
+}
+#documentationIssueManifestForm .voyageTextVal {
+    width: 78% !important;
+}
+.issueBLWrapper div.formRow:nth-child(2) > div:nth-child(2) .formInputWrap{
+    width: 54%;
+}
+.issueBLWrapper div.formRow:nth-child(2) > div:nth-child(2).rowItem input{
+    width: 99%;
+}
+.rowRemoveDisabledIcon{
+	background-position: -311px -224px;
+	height: 19px;
+	width: 18px;
+    cursor: default !important;
+}
+.mainBookingListWrap .singleColItem .plusIcon.icons_sprite, .singleColItem .plusIcon.icons_sprite {
+	background-position: -128px -91px;
+	float: left;
+	height: 16px;
+	margin: 0 0.5em 0 0;
+	width: 18px;
+}
+.accordionWrapper .accElement {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+}
+#mainSubBookingForm .accContent .w45 {
+	width: 45%;
+}
+#mainSubBookingForm .accContent .formInputWrap.doubleInput .carrierOtherDetails {
+  float: right !important;
+  width: 58%;
+}
+
+#mainSubBookingForm .rowItem.w40 select.carrierSel {
+  width: 45%;
+}
+#mainSubBookingForm .accContent.subBookingAccEle .w20 {
+	width: 7.5% !important;
+}
+.formInputWrap.radioItem.fistItem {
+	margin-bottom: 5px;
+}
+.accContent.subBookingAccEle .rowItem.firstItem {
+	width: 35% !important;
+	margin-left: 0 !important;
+}
+.accContent.subBookingAccEle .rowItem.makeModel {
+	width: 17.8% !important;
+}
+.accContent.subBookingAccEle .rowItem.modelButton {
+	width: 9% !important;
+	margin: 0 !important;
+	min-width: 101px;
+}
+.rowItem.makeModel label{
+	width: 14% !important;
+}
+.rowItem.makeModel .formInputWrap{
+	width: 85% !important;
+}
+.rowItem.firstItem label{
+	width: 13% !important;
+}
+.rowItem.firstItem .formInputWrap{
+	width: 86%;
+}
+.accContent.subBookingAccEle .rowItem {
+	width: 20% !important;
+    margin-left: 1% !important;
+}
+#mainSubBookingForm .accContent .formInputWrap.doubleInput .carrierOtherDetails {
+  float: right !important;
+  width: 58%;
+}
+
+#mainSubBookingForm .rowItem.w40 select.carrierSel {
+  width: 45%;
+}
+
+#mainSubBookingForm .w20 {
+  width: 20.5% !important;
+}
+#mainSubBookingForm .w40 {
+  width: 40% !important;
+    float: left !important;
+}
+#mainSubBookingForm .w40 label {
+  width: 21% !important;
+}
+#mainSubBookingForm .w40 input[type="text"] {
+  width: 31px;
+}
+#mainSubBookingForm .w20 .formInputWrap.doubleInput.radioItem {
+  width: 100%;
+}
+
+/* #DocumentationSection .mainBookingListWrap .subBookContentListCol{
+	margin-top: 65px;
+} */
+
+#addCarriageLegPopup .dataTable , #editCarriageLegPopup .dataTable {
+	margin: 0;
+}
+.singleColItem.retractedItem {
+    background-color: #f1b8b8;
+    border: 1px solid #ff1515 !important;
+}
+#retractManifestErrorTable td{
+	padding: 0 !important;
+}
+table.toolTipList {
+	width: auto;
+}
+.searchedForWrap {
+	    background-color: #f0f0f0;
+	    display: inline-block;
+	    padding: 0 0 5px 0.5%;
+	    width: 84%;
+	    height: auto;
+	    margin-left: 0.5%;
+	    margin-top: 6px;
+	}
+.selectedSearchDesc {
+	float: left;
+	margin: 6px 0 0 0;
+	font-weight: normal;
+}
+
+#wrapper section, .bookingGridContentWrapper, .mainBookingContentWrapper {
+	height: auto !important;
+	min-height: 600px;
+}
+
+.greenUpDownArrrow {
+	position: relative;
+	background-position: -130px -193px;
+    height: 24px;
+    width: 12px;
+}
+.greenUpArrow {
+	position: absolute;
+	top: -4px;
+	left: -12px;
+	height: 12px;
+    width: 34px;
+    cursor: pointer;
+}
+.greenDownArrow {
+	position: absolute;
+	top: 9px;
+	left: -12px;
+	height: 12px;
+    width: 34px;
+    cursor: pointer;
+}
+.mainBookingContentWrapper {
+    box-sizing: border-box;
+    float: right;
+    margin-left: 0.5%;
+    padding: 10px 36px 10px 0.5%;
+    width: 84%;
+}
+
+.searchedItem {
+	display: inline-block;
+	height: 100%;
+	line-height: 100%;
+	padding-left: 27px;
+	position: relative;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+.searchedItem span {
+	vertical-align: middle;
+}
+
+.searchedItemValue {
+	font-weight: normal;
+}
+
+.smallDotIcon, .smallRemoveIcon {
+    height: auto;
+}
+.smallDotIcon {
+    cursor: default;
+}
+
+/*Booking Screen */
+
+.billLadingPartyContentWrapper .threeColFormRow.formRow .rowItem:not(:first-child) {
+    width: 24%;
+    margin-left: 1%;
+}
+.billLadingPartyContentWrapper .threeColFormRow.formRow .rowItem:first-child label {
+    width: 15% !important;
+}
+.billLadingPartyContentWrapper .threeColFormRow.formRow .rowItem:first-child .formInputWrap {
+    width: 79%;
+}
+.billLadingPartyContentWrapper .formRow label.threeColLabel {
+    width: 22%;
+    margin-right: 2px;
+}
+.billLadingPartyContentWrapper .formRow .rowItem:nth-child(3) label {
+    width: 18%;
+}
+#removePartyB {
+	margin-left: 10px;
+	margin-right: 0;
+}
+#addPartyB, #addNewCommentHist {
+    padding: 0 1% 0 1%;
+    margin-left: 5% !important;
+    margin-top: 15px !important;
+    float: left;
+    width: auto;
+}
+#addNewCommentHist {
+	margin-left: 3% !important;
+}
+#billLadingCommentGrid .w10per{
+	width: 10%;
+}
+#billLadingCommentGrid .linkButton.rowRemoveIcon, #billLadingCommentGrid .w10per .linkButton {
+	width: auto;
+	padding: 0 10px 0;
+}
+#billLadingCommentGrid .greenUpDownArrrow .fa {
+	color: #446181;
+}
+#billLadingCommentGrid tr {
+    background-color: #fff !important;
+    border: none !important;
+}
+#billLadingCommentGrid td {
+    border: none !important;
+}
+.dimUnitLwh,.dimUnitW,.dimUnitA,.dimUnitV{
+	 margin-left: 3px;
+}
+
+/* viewsummary popup */
+.cargoOnHoldConfirmDoc button.ui-dialog-titlebar-close {
+    font-size: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+.usedCar {
+	margin-top: 12px;
+	margin-left: 20px;
+}
+
+.ui-dialog .ui-dialog-content {
+	padding: 0.5em;
+}
+.usedCar .value1 {
+    margin-left: 9%;
+}
+.usedCar .value2 {
+    margin-left: 16%;
+}
+.chargeSummary {
+	width: 100%;
+	height: 90%;
+}
+#viewSummaryPopup {
+    padding: 0 40px;
+}
+.chargeSummaryTotals {
+	width: 100%;
+	margin-bottom: 5px;
+	height: 85px;
+	background: #f0f0f0;
+	border: 1px solid #ececec;
+	box-sizing: border-box;
+}
+
+.summaryTotals1, .summaryTotals2, .summaryTotals3 {
+	width: 16%;
+	height: 85px;
+	float: left;
+	margin-bottom: 5px;
+	min-width: 210px;
+}
+
+.fontWeight {
+	font-weight: bold;
+}
+
+.unitsDiv {
+	height: 25px;
+}
+
+.fontWeight {
+	font-weight: bold;
+}
+
+.lineColor {
+	font-weight: bold !important;
+}
+
+.chargeSummaryHdr {
+	width: 100%;
+	margin-bottom: 0;
+	min-height: 85px;
+	height: 85px;
+	background: #f9f9f9;
+	border: 1px solid #ececec;
+	box-sizing: border-box;
+}
+
+.chargeSummaryCntnt {
+	width: 100%;
+	margin: 0;
+	height: auto;
+}
+
+#csSubDiv1 {
+	width: 25%;
+	min-height: 85px;
+	float: left;
+	margin-bottom: 0;
+	height: 85px;
+}
+
+#csSubDiv2, #csSubDiv3, #csSubDiv4, #csSubDiv5 {
+	width: 50%;
+	min-height: 85px;
+	height: 85px;
+	float: left;
+}
+
+.columnDiv #csSubDiv2 {
+	width: 33% !important;
+	margin-left: 7% !important;
+}
+
+#csSubDiv4 .currDetails{
+	padding-right: 50px;
+}
+.chargeNbr {
+	margin: 10px 0 0 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.totalsDetails {
+	text-align: left;
+	margin: 10px 0 0 20px;
+	font-weight: normal;
+}
+
+.fcDetails {
+	text-align: center;
+	margin: 10px 0 0 100px;
+	font-weight: normal;
+}
+.totalColor {
+	font-weight: bold !important;
+}
+
+.currDetails {
+	text-align: right;
+	margin: 10px 0 0 0;
+	font-weight: normal;
+	height: 10px;
+}
+
+.csCntntSubdiv1 {
+	width: 100%;
+	height: 85px;
+	border: 1px solid #ececec;
+	border-top: none;
+	box-sizing: border-box;
+}
+.totalsDetailsHdr {
+	text-align: center;
+    margin: 5% 0 0 0;
+    font-weight: 600;
+}
+.chargeNbrHdr {
+	margin: 5% 0 0 5%;
+    font-weight: 600;
+}
+.currDetailsHdr {
+	text-align: center;
+    margin: 10% 40px 0 40px;
+    font-weight: 600;
+}
+.csCntntSubdiv1.even {
+	background: #ffffff;
+}
+.csCntntSubdiv1.odd {
+	background: #f9f9f9;
+}
+.chargeSummaryMainHdr {
+	height: 62px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.chargeSummaryMainHdr #csSubDiv2 {
+	width: 23%;
+}
+.columnDiv {
+	width: 23%;
+    float: left;
+    background: rgba(236,236,236,0.3);
+    margin-right: 10px;
+    min-width: 300px;
+}
+.currDetails.greyColor.defaultCharge{
+	margin-right: 18%;
+}
+.columnDiv.extraPad, #csSubDiv4.extraPad {
+	padding-bottom: 30px;
+}
+#csSubDiv4 {
+	background: rgba(236,236,236,0.3);
+	width: 12%;
+	min-width: 158px;
+}
+.chargeSummaryMainHdr #csSubDiv1, .chargeSummaryMainHdr #csSubDiv2, .chargeSummaryMainHdr #csSubDiv4 {
+    height: 15px;
+    min-height: 53px;
+    padding-top: 10px;
+}
+.billLadingPartyContentWrapper .threeColFormRow.formRow .rowItem.thirdColumn{
+	width: 36%;
+}
+#DocumentationSection #billLadingDetailsForm a.addNewPartyWrap{
+	float: none;
+    width: 68px;
+    padding: 0 1% 0 1%;
+}
+.submitFromData > .formSubmitButtons{
+	text-align: right;
+}
+.invisibleField{
+	visibility: hidden;
+}
+.invisibleField + div .rmvPartyitem {
+	margin-left: 10px;
+}
+.cargoListContent .dataTables_wrapper.no-footer .dataTables_scrollBody{
+	border-bottom: none !important;
+}
+.addPadding{
+	padding-top: 15px !important;
+	padding-left: 2% !important;
+    border: 1px solid #d9d9d9;
+    border-bottom: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.numberOfItem .formInputWrap input {
+    margin-left: 0.5em;
+}
+#documentationEmailDetails .formInputWrap input[type="text"] {
+    width:98.4%
+}
+#documentationEmailDetails textarea#emailContent{
+    width:98%
+}
+@media all and (min-width: 1900px) {
+	.numberOfItem .formInputWrap input {
+	    width: 3em !important;
+	}
+}
+@media all and (max-width: 1899px) {
+	.numberOfItem .formInputWrap input {
+	    width: 2em !important;
+	}
+}
+.freightChargesSubDivMain table thead th.smallNumeric, #subBookingChargesGrid_wrapper table thead th.smallNumeric {
+    text-align: center !important;
+}
+@media all and (max-width: 1680px) {
+	.rowItem.firstItem label {
+	    width: 16% !important;
+	}
+	.rowItem.firstItem .formInputWrap {
+	    width: 83%;
+	}
+	.subBookingAccEle .formInputWrap {
+	    width: 70%;
+	}
+	.subBookingAccEle .threeColFormRow.formRow label {
+	    width: 29%;
+	}
+	#mainSubBookingForm .accContent.subBookingAccEle .w20 {
+	    width: 10% !important;
+	}
+	.rowItem.makeModel .formInputWrap {
+	    width: 82% !important;
+	}
+	.rowItem.makeModel label {
+	    width: 17% !important;
+	}
+	.accContent.subBookingAccEle .rowItem.modelButton {
+    	margin-left: 1% !important;
+    	width: 12% !important;
+    }
+    #addNewChargeHist {
+	    font-size: 8.5px;
+	    /* padding: 1px 5px !important; */
+	    margin-right: 0 !important;
+	    width: 7%;
+	}
+	.subBookingAccEle .rowItem .formInputWrap.subBookingInpWrap {
+	    width: 80.5%;
+	}
+	.subBookingAccEle .rowItem .subBookingAccLabel {
+	    width: 19% !important;
+	}
+	.subBookingAccEle .rowItem label.m_r_0p {
+	    width: 28%;
+	}
+	.subBookingAccEle .rowItem label.subBookingDocLabel {
+	    width: 33%;
+	}
+	.accElement.billLadingHeaderWrapper .rowItem.printed {
+    margin-left: 0!important;
+    width: 12%!important;
+	}
+	.subBookingAccEle .rowItem .formInputWrap.subBookingDocWrap {
+	    width: 66%;
+	}
+	.accContent.subBookingAccEle .rowItem.equipResCheck {
+	    width: 17% !important;
+	}
+	.accContent.subBookingAccEle .rowItem.equipResCheck label{
+	    margin-left: 0 !important;
+	}
+	#subBookingChargesGrid th.icons {
+    	width: 4% !important;
+	}
+	#subBookingChargesGrid th.typeColumn, #bookingFreightDimensionsGrid th.typeColumn {
+	    width: 20.1% !important;
+	}
+	.freightChargesSubDivAside {
+    	width: 18% !important;
+    }
+	#subBookingChargesGrid th.smallNumeric, #subBookingChargesGrid td.smallNumeric, #bookingFreightDimensionsGrid td.smallNumeric, #bookingFreightDimensionsGrid th.smallNumeric{
+	    width: 6.8% !important;
+	}
+	.colItem.cargoListCol {
+	    width: 60% !important;
+	}
+	.colItem label {
+    	width: 21.2% !important;
+    }
+    .colItem label#mainContract{
+    	width: 48.2% !important;
+    }
+    .colItem label.contractLabel{
+    	width: 22.2% !important;
+    }
+    .thirdPartyDetailsAccEle .threeColFormRow  .rowItem {
+	    width: 19% !important;
+	}
+	.thirdPartyDetailsAccEle .threeColFormRow .rowItem.dateCol {
+	    width: 11.5% !important;
+	}
+	.dateCol .colItem label {
+	    width: 40% !important;
+	}
+	.thirdPartyDetailsAccEle .threeColFormRow .rowItem.w45 .colItem .formInputWrap {
+	    width: 89% !important;
+	}
+	.threeColFormRow .colItem .thirdPartyLabel {
+	    width: 11% !important;
+	}	
+}
+#editMainCarriageLegGrid_wrapper  th.rowSpan1.sorting_disabled, #editCarriageLegGrid_wrapper  th.rowSpan1.sorting_disabled, #addMainCarriageLegGrid_wrapper  th.rowSpan1.sorting_disabled, #addCarriageLegGrid_wrapper  th.rowSpan1.sorting_disabled {
+		text-align : left !important;
+	}
+#editMainCarriageLegGrid_wrapper td.alignRight.backGroundShade , #editCarriageLegGrid_wrapper  td.alignRight.backGroundShade,
+ #addMainCarriageLegGrid_wrapper  td.alignRight.backGroundShade,
+ #addCarriageLegGrid_wrapper td.alignRight.backGroundShade {
+ background: rgba(236, 236, 236, 0.3);
+ }	
+ 
+ #editMainCarriageLegGrid_wrapper th.alignRight.backGroundShade , #editCarriageLegGrid_wrapper  th.alignRight.backGroundShade,
+ #addMainCarriageLegGrid_wrapper  th.alignRight.backGroundShade,
+ #addCarriageLegGrid_wrapper th.alignRight.backGroundShade {
+ background : rgba(236, 236, 236, 0.3); 
+ text-align: right !important;
+ }
+ 
+ table#editMainCarriageLegGrid_wrapper th:last-child, table#editCarriageLegGrid_wrapper  th:last-child,
+ table#addMainCarriageLegGrid_wrapper  th:last-child,
+ table#addCarriageLegGrid_wrapper th:last-child {
+ 	padding-right : 6px !important;
+ 	box-sizing : border-box;
+ }
+ 
+ table#editMainCarriageLegGrid_wrapper th:last-child, table#editCarriageLegGrid_wrapper  th:last-child,
+ table#addMainCarriageLegGrid_wrapper  th:last-child,
+ table#addCarriageLegGrid_wrapper th:last-child {
+ 	padding-right : 6px !important;
+ 	box-sizing : border-box;
+ }
+ 
+.btnDisabled{
+	background: #a1b0c0;
+    border: none;
+}
